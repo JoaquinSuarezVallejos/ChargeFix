@@ -1,4 +1,4 @@
-// Sticky Navigation Menu JS Code
+// Menú de Navegación (Sticky NavBar) y Botón de Desplazamiento (Scroll Button)
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
 console.log(scrollBtn);

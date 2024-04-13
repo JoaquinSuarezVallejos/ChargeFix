@@ -1,4 +1,4 @@
-/* Link: Poppins - Google Font */
+/* Link a Google Font - Poppins & Ubuntu */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
   margin: 0;
@@ -12,7 +12,7 @@
   background-color: #fff;
 }
 
-/* Custom Scroll Bar CSS */
+/* Barra de Desplazamiento (Custom Scroll Bar) */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -28,7 +28,8 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #ED9121;
 }
-/* navbar styling */
+
+/* Menú de Navegación (NavBar) */
 nav{
   position: fixed;
   width: 100%;
@@ -94,7 +95,7 @@ nav.sticky .phone-navbar {
   color: #FFF;
 }
 
-/* Side Navigation Menu Button CSS */
+/* Menú de Navegación para Mobile (Side Navigation for Mobile) */
 nav .menu-btn,
 .navbar .menu .cancel-btn{
   position: absolute;
@@ -116,7 +117,7 @@ nav.sticky .menu-btn{
   color: #fff;
 }
 
-/* home section styling */
+/* Sección: Inicio */
 .home{
   height: 100vh;
   width: 100%;
@@ -194,9 +195,7 @@ nav.sticky .menu-btn{
   font-family: 'Poppins', sans-serif;
 }
 
-/* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
+/* Sección: Nosotros */
 section{
   padding-top: 40px;
   padding-bottom: 1px;
@@ -283,7 +282,7 @@ section .button button:hover{
   color: #ED9121;
 }
 
- /* My Skills CSS */
+ /* Sección: Tecnologías */
  .skills{
    background: #1A1A1A;
  }
@@ -337,7 +336,7 @@ section .button button:hover{
   color: #ED9121;
 }
 
-/* My Services CSS */
+/* Sección: Servicio */
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
@@ -383,7 +382,8 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }
-/* Contact Me CSS */
+
+/* Sección: Contacto */
 .contact{
   background-color: #1A1A1A;
 }
@@ -398,7 +398,7 @@ section .button button:hover{
   color: #fff;
 }
 
-/* Footer CSS */
+/* Footer */
 footer{
   background: #ED9121;
   padding: 15px 0;
@@ -417,8 +417,9 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: underline;
 }
-/* Scroll TO Top Button CSS */
-.scroll-button a{
+
+/* Flecha Scroll Up (Volver a Inicio) */
+.scroll-up-button a{
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -462,7 +463,6 @@ footer .text span a:hover{
     width: 350px;
   }
 }
-
 @media (max-width: 750px) {
   nav .navbar{
     width: 90%;
@@ -527,7 +527,6 @@ footer .text span a:hover{
     width: 100%;
 }
 }
-
 @media (max-width: 500px){
   .home .text-two{
     font-size: 55px;

@@ -214,6 +214,39 @@ section .content{
   justify-content: space-between;
   align-items: center;
 }
+.about .content .titleNosotros{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -43px;
+  margin-bottom: 55px;
+}
+.about .content .titleNosotros span{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 5px;
+}
+.about .content .titleNosotros span::before,
+.about .content .titleNosotros span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.about .content .titleNosotros span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Editando los títulos */
+
 section .title{
   display: flex;
   justify-content: center;
@@ -242,23 +275,38 @@ section .title span::after{
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* Editando los títulos */
+
 .about .about-details .left{
   width: 45%;
 }
 .about .left img{
-  height: 400px;
-  width: 400px;
+  width: 512px;
+  height: 341px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 3px #191919;
+  margin-bottom: 5px;
 }
 .about-details .right{
   width: 55%;
 }
-section  .topic{
+.about-details .right .topicMision{
   color: #fff;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 29px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
   margin-bottom: 10px;
+}
+.about-details .right .textMision{
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 .about-details .right p{
   text-align: justify;
@@ -387,6 +435,13 @@ section .button button:hover{
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
   color: #fff;
+}
+.services .boxes .box .topicBoxes{
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Sección: Contacto */

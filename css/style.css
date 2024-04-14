@@ -346,6 +346,36 @@ section .button button:hover{
 .services{
   background-color: #1A1A1A;
 }
+.services .content .titleServicio{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -43px;
+  margin-bottom: 25px;
+}
+.services .content .titleServicio span{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 5px;
+}
+.services .content .titleServicio span::before,
+.services .content .titleServicio span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.services .content .titleServicio span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .services .boxes{
   display: flex;
   flex-wrap: wrap;
@@ -398,36 +428,6 @@ section .button button:hover{
   margin-bottom: 5px;
   font-family: 'Poppins', sans-serif;
 }
-.about .content .titleServicio{
-  display: flex;
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  margin-top: -43px;
-  margin-bottom: 55px;
-}
-.about .content .titleServicio span{
-  color: #fff;
-  font-size: 35px;
-  font-weight: 650;
-  position: relative;
-  padding-bottom: 5px;
-}
-.about .content .titleServicio span::before,
-.about .content .titleServicio span::after{
-  content: '';
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background: #ED9121;
-  left: 0;
-  bottom: 0;
-}
-.about .content .titleServicio span::after{
-  bottom: -9px;
-  width: 70%;
-  left: 50%;
-  transform: translateX(-50%);
-}
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
@@ -438,6 +438,36 @@ section .button button:hover{
 }
 .technologies .content{
   padding: 40px 0;
+}
+.technologies .content .titleTecnologias{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -80px;
+  margin-bottom: 25px;
+}
+.technologies .content .titleTecnologias span{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 8px;
+}
+.technologies .content .titleTecnologias span::before,
+.technologies .content .titleTecnologias span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.technologies .content .titleTecnologias span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .technologies .technologies-details{
   display: flex;
@@ -502,6 +532,36 @@ section .button button:hover{
   text-align: center;
   margin: auto;
   color: #fff;
+}
+.contact .content .titleContacto{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -42px;
+  margin-bottom: 25px;
+}
+.contact .content .titleContacto span{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 8px;
+}
+.contact .content .titleContacto span::before,
+.contact .content .titleContacto span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.contact .content .titleContacto span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 

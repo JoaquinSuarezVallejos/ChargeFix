@@ -38,7 +38,6 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Ubuntu', sans-serif;
 }
 nav.sticky{
   background: #ED9121;
@@ -66,24 +65,92 @@ nav .navbar .menu{
 }
 nav .navbar .menu li{
   list-style: none;
-  margin: 0 8px;
+  margin: 0 9px;
 }
-.navbar .menu a{
+.navbar .menu .navbarHome-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 550;
   color: #fff;
-  padding: 6px 0;
   transition: all 0.4s ease;
   font-family: 'Poppins', sans-serif;
 }
-.navbar .menu a:hover{
+.navbar .menu .navbarHome-btn:hover{
   color: #ED9121;
 }
-nav.sticky .menu a{
-  color: #FFF;
+nav.sticky .menu .navbarHome-btn:hover{
+  color: #000;
 }
-nav.sticky .menu a:hover{
+.navbar .menu .navbarAbout-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
   color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarAbout-btn:hover{
+  color: #ED9121;
+}
+nav.sticky .menu .navbarAbout-btn:hover{
+  color: #000;
+}
+.navbar .menu .navbarService-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarService-btn:hover{
+  color: #ED9121;
+}
+nav.sticky .menu .navbarService-btn:hover{
+  color: #000;
+}
+.navbar .menu .navbarTechnologies-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarTechnologies-btn:hover{
+  color: #ED9121;
+}
+nav.sticky .menu .navbarTechnologies-btn:hover{
+  color: #000;
+}
+.navbar .menu .navbarContact-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarContact-btn:hover{
+  color: #ED9121;
+}
+nav.sticky .menu .navbarContact-btn:hover{
+  color: #000;
 }
 .navbar .phone-navbar {
   color: #ED9121;
@@ -178,10 +245,10 @@ nav.sticky .menu-btn{
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
-.home .button{
+.home .contact-us-btn{
   margin: 14px 0;
 }
-.home .button button{
+.home .contact-us-btn button{
   outline: none;
   padding: 8px 16px;
   border-radius: 6px;
@@ -194,7 +261,7 @@ nav.sticky .menu-btn{
   transition: all 0.4s ease;
   font-family: 'Poppins', sans-serif;
 }
-.home .button button:hover{
+.home .contact-us-btn button:hover{
   border-color: #ED9121;
   background-color: #1A1A1A;
   color: #ED9121;
@@ -254,35 +321,6 @@ section .content{
   left: 50%;
   transform: translateX(-50%);
 }
-
-/* section .title{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-section .title span{
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 8px;
-}
-section .title span::before,
-section .title span::after{
-  content: '';
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: #ED9121;
-  left: 0;
-  bottom: 0;
-}
-section .title span::after{
-  bottom: -7px;
-  width: 70%;
-  left: 50%;
-  transform: translateX(-50%);
-} */
 
 .about .about-details .left{
   width: 45%;
@@ -600,7 +638,7 @@ footer .text span a:hover{
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 2px #191919;
   display: none;
 }
 /* ------------------------------------------------------------------------------------------------------------- */

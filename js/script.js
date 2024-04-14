@@ -5,7 +5,7 @@ console.log(scrollBtn);
 let val;
 window.onscroll = function() 
 {
-  if (document.documentElement.scrollTop > 20) {
+  if (document.documentElement.scrollTop > 60) {
     nav.classList.add("sticky");
     scrollBtn.style.display = "block";
   }
@@ -13,6 +13,42 @@ window.onscroll = function()
     nav.classList.remove("sticky");
     scrollBtn.style.display = "none";
   }
+}
+
+// NavBar: Botón "Inicio"
+let navbar_home_btn = document.querySelector(".navbarHome-btn");
+navbar_home_btn.onclick = function() {
+  window.scrollTo(0, 0);
+}
+
+// NavBar: Botón "Nosotros"
+let navbar_about_btn = document.querySelector(".navbarAbout-btn");
+navbar_about_btn.onclick = function() {
+  window.scrollTo(0, 577);
+}
+
+// NavBar: Botón "Servicio"
+let navbar_service_btn = document.querySelector(".navbarService-btn");
+navbar_service_btn.onclick = function() {
+  window.scrollTo(0, 1180);
+}
+
+// NavBar: Botón "Tecnologías"
+let navbar_tech_btn = document.querySelector(".navbarTechnologies-btn");
+navbar_tech_btn.onclick = function() {
+  window.scrollTo(0, 1850);
+}
+
+// NavBar: Botón "Contacto"
+let navbar_contact_btn = document.querySelector(".navbarContact-btn");
+navbar_contact_btn.onclick = function() {
+  window.scrollTo(0, document.documentElement.scrollHeight);
+}
+
+// Botón "Contáctenos" - Inicio
+let contactBtn = document.querySelector(".contact-us-btn");
+contactBtn.onclick = function() {
+  window.scrollTo(0, document.documentElement.scrollHeight);
 }
 
 // Menú de Navegación para Mobile (Side Navigation for Mobile)

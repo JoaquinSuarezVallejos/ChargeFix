@@ -1,4 +1,5 @@
 /* Link a Google Font - Poppins & Ubuntu */
+/* ------------------------------------------------------------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
   margin: 0;
@@ -7,12 +8,11 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
 
-.body{
-  background-color: #fff;
-}
 
 /* Barra de Desplazamiento (Custom Scroll Bar) */
+/* ------------------------------------------------------------------------------------------------------------- */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -24,12 +24,14 @@
     border-radius: 12px;
     transition: all 0.3s ease;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: #ED9121;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Menú de Navegación (NavBar) */
+/* ------------------------------------------------------------------------------------------------------------- */
 nav{
   position: fixed;
   width: 100%;
@@ -94,8 +96,11 @@ nav.sticky .menu a:hover{
 nav.sticky .phone-navbar {
   color: #FFF;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Menú de Navegación para Mobile (Side Navigation for Mobile) */
+/* ------------------------------------------------------------------------------------------------------------- */
 nav .menu-btn,
 .navbar .menu .cancel-btn{
   position: absolute;
@@ -116,8 +121,11 @@ nav.sticky .menu-btn{
 .navbar .menu .menu-btn{
   color: #fff;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Sección: Inicio */
+/* ------------------------------------------------------------------------------------------------------------- */
 .home{
   height: 100vh;
   width: 100%;
@@ -125,7 +133,6 @@ nav.sticky .menu-btn{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  /* font-family: 'Ubuntu', sans-serif; */
 }
 .home .home-content{
   width: 90%;
@@ -197,8 +204,11 @@ nav.sticky .menu-btn{
   display: flex;
   justify-content: right;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Sección: Nosotros */
+/* ------------------------------------------------------------------------------------------------------------- */
 section{
   padding-top: 40px;
   padding-bottom: 1px;
@@ -245,9 +255,7 @@ section .content{
   transform: translateX(-50%);
 }
 
-/* Editando los títulos */
-
-section .title{
+/* section .title{
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
@@ -274,9 +282,7 @@ section .title span::after{
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
-}
-
-/* Editando los títulos */
+} */
 
 .about .about-details .left{
   width: 45%;
@@ -332,62 +338,11 @@ section .button button:hover{
   background-color: #fff;
   color: #ED9121;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
 
- /* Sección: Tecnologías */
- .technologies{
-   background-color: #333333;
- }
- .technologies .content{
-   padding: 40px 0;
- }
- .technologies .technologies-details{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .technologies-details .text{
-   width: 50%;
- }
- .technologies-details p{
-   color: #fff;
-   text-align: justify;
- }
-.technologies .technologies-details .experience{
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-}
-.technologies-details .experience .num{
-  color: #fff;
-  font-size: 80px;
-}
-.technologies-details .experience .exp{
-  color: #fff;
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
-}
-.technologies-details .boxes{
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.technologies-details .box{
-  width: calc(100% / 2 - 20px);
-  margin: 20px 0;
-}
-.technologies-details .boxes .topic{
-  font-size: 20px;
-  color: #ED9121;
-}
-.technologies-details .boxes .per{
-  font-size: 60px;
-  color: #ED9121;
-}
 
 /* Sección: Servicio */
+/* ------------------------------------------------------------------------------------------------------------- */
 .services{
   background-color: #1A1A1A;
 }
@@ -443,8 +398,98 @@ section .button button:hover{
   margin-bottom: 5px;
   font-family: 'Poppins', sans-serif;
 }
+.about .content .titleServicio{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -43px;
+  margin-bottom: 55px;
+}
+.about .content .titleServicio span{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 5px;
+}
+.about .content .titleServicio span::before,
+.about .content .titleServicio span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.about .content .titleServicio span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Sección: Tecnologías */
+/* ------------------------------------------------------------------------------------------------------------- */
+.technologies{
+  background-color: #333333;
+}
+.technologies .content{
+  padding: 40px 0;
+}
+.technologies .technologies-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.technologies-details .text{
+  width: 50%;
+}
+.technologies-details p{
+  color: #fff;
+  text-align: justify;
+}
+.technologies .technologies-details .experience{
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.technologies-details .experience .num{
+  color: #fff;
+  font-size: 80px;
+}
+.technologies-details .experience .exp{
+  color: #fff;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 6px;
+}
+.technologies-details .boxes{
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.technologies-details .box{
+  width: calc(100% / 2 - 20px);
+  margin: 20px 0;
+}
+.technologies-details .boxes .topic{
+  font-size: 20px;
+  color: #ED9121;
+}
+.technologies-details .boxes .per{
+  font-size: 60px;
+  color: #ED9121;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Sección: Contacto */
+/* ------------------------------------------------------------------------------------------------------------- */
 .contact{
   background-color: #1A1A1A;
 }
@@ -458,8 +503,11 @@ section .button button:hover{
   margin: auto;
   color: #fff;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Footer */
+/* ------------------------------------------------------------------------------------------------------------- */
 footer{
   background: #ED9121;
   padding: 15px 0;
@@ -478,8 +526,11 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: underline;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Flecha Scroll Up (Volver a Inicio) */
+/* ------------------------------------------------------------------------------------------------------------- */
 .scroll-up-button a{
   position: fixed;
   bottom: 20px;
@@ -492,8 +543,11 @@ footer .text span a:hover{
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Responsive Media Query */
+/* ------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 1190px) {
   section .content{
     width: 85%;
@@ -600,3 +654,4 @@ footer .text span a:hover{
     color: #ED9121;
   }
 }
+/* ------------------------------------------------------------------------------------------------------------- */

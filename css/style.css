@@ -279,7 +279,7 @@ nav.sticky .menu-btn{
 /* ------------------------------------------------------------------------------------------------------------- */
 section{
   padding-top: 40px;
-  padding-bottom: 1px;
+  padding-bottom: 3px;
   background-color: #333333;
 }
 section .content{
@@ -301,10 +301,10 @@ section .content{
 }
 .about .content .titleNosotros span{
   color: #fff;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 650;
   position: relative;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 .about .content .titleNosotros span::before,
 .about .content .titleNosotros span::after{
@@ -389,15 +389,15 @@ section .button button:hover{
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-  margin-top: -43px;
+  margin-top: -40px;
   margin-bottom: 25px;
 }
 .services .content .titleServicio span{
   color: #fff;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 650;
   position: relative;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 .services .content .titleServicio span::before,
 .services .content .titleServicio span::after{
@@ -420,7 +420,7 @@ section .button button:hover{
   flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
-  margin-bottom: -8px;
+  margin-bottom: -4px;
 }
 .services .boxes .box{
   display: flex;
@@ -476,7 +476,7 @@ section .button button:hover{
   font-family: 'Poppins', sans-serif;
 }
 .services .boxes .box .textBoxes{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
@@ -513,10 +513,10 @@ section .button button:hover{
 }
 .technologies .content .titleTecnologias span{
   color: #fff;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 650;
   position: relative;
-  padding-bottom: 8px;
+  padding-bottom: 7px;
 }
 .technologies .content .titleTecnologias span::before,
 .technologies .content .titleTecnologias span::after{

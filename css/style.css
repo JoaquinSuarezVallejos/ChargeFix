@@ -200,6 +200,7 @@ nav.sticky .menu-btn{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
 }
 .home .home-content{
   width: 90%;
@@ -213,38 +214,41 @@ nav.sticky .menu-btn{
   color: #fff;
   font-size: 80px;
   font-weight: 800;
-  margin-bottom: -5px;
-  font-family: 'Poppins', sans-serif;
+  margin-bottom: -6px;
 }
 .home .text-two{
   font-size: 70px;
   font-weight: 700;
+  margin-bottom: 0px;
   color: #ED9121;
-  font-family: 'Poppins', sans-serif;
 }
 .home .text-three{
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 500;
   padding: 20px 0px;
-  margin-left: 0px;
+  margin-left: 1px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
 }
 .home .text-four{
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 500;
-  margin: -14px 0;
+  margin: -14px 0px;
+  margin-left: 1px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
 }
-.home .contact-us-btn{
-  margin: 14px 0;
+.home .contact-us-btn .contact-us-icon{
+  display: inline-block;
+  margin-right: 4px;
+}
+.home .contact-us-btn button{
+  margin-top: 48px;
   margin-bottom: -25px;
+  margin-left: 1px;
 }
 .home .contact-us-btn button{
   outline: none;
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 26px;
   font-weight: 600;
   background: #ED9121;
@@ -258,11 +262,6 @@ nav.sticky .menu-btn{
   border-color: #ED9121;
   background-color: #1A1A1A;
   color: #ED9121;
-  font-family: 'Poppins', sans-serif;
-}
-.home .chargefix_homeimage{
-  display: flex;
-  justify-content: right;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -643,28 +642,32 @@ section .content{
   transform: translateX(-50%);
 }
 .contact .topicContacto{
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
-  margin-top: 12px;
-  margin-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
   font-family: 'Poppins', sans-serif;
 }
 .contact .textContacto{
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
-.contact .btnEmail{
+.contact .contactButtons{
   display: flex;
   justify-content: center;
-  margin: 16px 0;
+  margin: 14px;
 }
-.contact .btnEmail button{
+.contact .contactButtons .contactIcons{
+  display: inline-block;
+}
+.contact .contactButtons button{
   outline: none;
-  padding: 8px 16px;
-  border-radius: 4px;
+  padding: 8px 20px;
+  margin-left: 26px;
+  border-radius: 8px;
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;  
+  font-size: 24px;  
   font-weight: 600;
   background: #ED9121;
   color: #fff;
@@ -672,34 +675,20 @@ section .content{
   cursor: pointer;
   transition: all 0.4s ease;
 }
-.contact .btnEmail button:hover{
+.contact .contactButtons button:hover{
   border-color: #ED9121;
   background-color: #1A1A1A;
   color: #ED9121;
 }
-.contact .btnWhatsApp{
-  display: flex;
-  justify-content: center;
-  margin: 16px 0;
+.contact .contactButtons .btnWhatsApp{
+  background-color: #1DAA61;
 }
-.contact .btnWhatsApp button{
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;  
-  font-weight: 600;
-  background: #ED9121;
-  color: #fff;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-.contact .btnWhatsApp button:hover{
-  border-color: #ED9121;
+.contact .contactButtons .btnWhatsApp:hover{
+  border-color: #1DAA61;
   background-color: #1A1A1A;
-  color: #ED9121;
+  color: #1DAA61;
 }
+
 .contact .text-ubicacion{
   font-size: 18px;
   font-weight: 200;

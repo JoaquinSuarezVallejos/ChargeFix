@@ -213,7 +213,7 @@ nav.sticky .menu-btn{
   color: #fff;
   font-size: 80px;
   font-weight: 800;
-  margin-left: -3px;
+  margin-bottom: -5px;
   font-family: 'Poppins', sans-serif;
 }
 .home .text-two{
@@ -223,7 +223,7 @@ nav.sticky .menu-btn{
   font-family: 'Poppins', sans-serif;
 }
 .home .text-three{
-  font-size: 27px;
+  font-size: 26px;
   font-weight: 500;
   padding: 20px 0px;
   margin-left: 0px;
@@ -231,17 +231,9 @@ nav.sticky .menu-btn{
   font-family: 'Poppins', sans-serif;
 }
 .home .text-four{
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 500;
   margin: -14px 0;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-}
-.home .text-five{
-  font-size: 20px;
-  font-weight: 200;
-  margin-top: 50px;
-  margin-bottom: 20px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -322,7 +314,6 @@ section .content{
   left: 50%;
   transform: translateX(-50%);
 }
-
 .about .about-details .left{
   width: 45%;
 }
@@ -339,8 +330,8 @@ section .content{
 }
 .about-details .right .topicMision{
   color: #fff;
-  font-size: 29px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 550;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
@@ -357,25 +348,24 @@ section .content{
   text-align: justify;
   color: #fff;
 }
-section .button{
-  margin: 16px 0;
+.about .about-details .experience{
+  display: flex;
+  align-items: center;
+  margin: 0 0px;
 }
-section .button button{
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 25px;
-  font-weight: 400;
-  background: #ED9121;
+.about-details .experience .num{
   color: #fff;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all 0.4s ease;
+  font-size: 80px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
-section .button button:hover{
-  border-color: #ED9121;
-  background-color: #fff;
-  color: #ED9121;
+.about-details .experience .exp{
+  color: #fff;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 12px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -390,7 +380,7 @@ section .button button:hover{
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   margin-top: -40px;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 }
 .services .content .titleServicio span{
   color: #fff;
@@ -420,7 +410,7 @@ section .button button:hover{
   flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
-  margin-bottom: -4px;
+  margin-bottom: 42px;
 }
 .services .boxes .box{
   display: flex;
@@ -435,7 +425,7 @@ section .button button:hover{
   text-align: center;
   border-radius: 12px;
   padding: 20px 15px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 6px 6px 0px 0px #fff;
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -468,29 +458,29 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }
-.services .boxes .box .topicBoxes{
-  font-size: 24px;
+.services .boxes .box .topicBoxes1{
+  font-size: 26px;
   font-weight: 600;
   margin-top: 12px;
   margin-bottom: 5px;
   font-family: 'Poppins', sans-serif;
 }
-.services .boxes .box .textBoxes{
+.services .boxes .box .textBoxes1{
   font-size: 18px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
-.textBoxesAlt{
+.textBoxesAlt1{
   font-size: 17px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
-.services .boxes .box .textBoxes a{
+.services .boxes .box .textBoxes1 a{
   color: #fff;
   font-weight: 600;
   text-decoration: underline;
 }
-.services .boxes .box .textBoxes a:hover{
+.services .boxes .box .textBoxes1 a:hover{
   color: #000;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -509,7 +499,7 @@ section .button button:hover{
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   margin-top: -80px;
-  margin-bottom: 25px;
+  margin-bottom: 38px;
 }
 .technologies .content .titleTecnologias span{
   color: #fff;
@@ -534,51 +524,75 @@ section .button button:hover{
   left: 50%;
   transform: translateX(-50%);
 }
-.technologies .technologies-details{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.technologies-details .text{
-  width: 50%;
-}
-.technologies-details p{
-  color: #fff;
-  text-align: justify;
-}
-.technologies .technologies-details .experience{
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-}
-.technologies-details .experience .num{
-  color: #fff;
-  font-size: 80px;
-}
-.technologies-details .experience .exp{
-  color: #fff;
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
-}
-.technologies-details .boxes{
-  width: 45%;
+.technologies .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  color: #fff;
+  margin-bottom: -38px;
 }
-.technologies-details .box{
-  width: calc(100% / 2 - 20px);
-  margin: 20px 0;
+.technologies .boxes .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1A1A1A;
+  margin: 15px -48px;
+  /* width: calc(100% / 3 - 15px); */
+  width: 300px;
+  height: 320px;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  padding: 5px 15px;
+  box-shadow: 6px 6px 0px 0px #999999;
+  cursor: default;
+  transition: all 0.4s ease;
 }
-.technologies-details .boxes .topic{
-  font-size: 20px;
+.technologies .boxes .box:hover{
+  background: #ED9121;
+  color: #fff;
+}
+.technologies .boxes .box .icon{
+  height: 60px;
+  width: 60px;
+  background: #ED9121;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  color: #fff;
+  margin: 0 auto -1px auto;
+  transition: all 0.4s ease;
+}
+.technologies .box:hover .icon{
+  background-color: #fff;
   color: #ED9121;
 }
-.technologies-details .boxes .per{
-  font-size: 60px;
-  color: #ED9121;
+.technologies .boxes .box:hover .topic,
+.technologies .boxes .box:hover p{
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.technologies .boxes .box:hover .topic,
+.technologies .boxes .box:hover p{
+  color: #fff;
+}
+.technologies .boxes .box .topicBoxes2{
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.technologies .boxes .box .textBoxes2{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.textBoxesAlt2{
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -607,7 +621,7 @@ section .button button:hover{
 }
 .contact .content .titleContacto span{
   color: #fff;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 650;
   position: relative;
   padding-bottom: 8px;
@@ -627,6 +641,71 @@ section .button button:hover{
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
+}
+.contact .topicContacto{
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.contact .textContacto{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.contact .btnEmail{
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+.contact .btnEmail button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;  
+  font-weight: 600;
+  background: #ED9121;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.contact .btnEmail button:hover{
+  border-color: #ED9121;
+  background-color: #1A1A1A;
+  color: #ED9121;
+}
+.contact .btnWhatsApp{
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+.contact .btnWhatsApp button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;  
+  font-weight: 600;
+  background: #ED9121;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.contact .btnWhatsApp button:hover{
+  border-color: #ED9121;
+  background-color: #1A1A1A;
+  color: #ED9121;
+}
+.contact .text-ubicacion{
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 25px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 

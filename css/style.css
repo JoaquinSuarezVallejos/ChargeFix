@@ -406,7 +406,7 @@ section .content{
   flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
-  margin-bottom: 42px;
+  margin-bottom: 44px;
 }
 .services .boxes .box{
   display: flex;
@@ -527,7 +527,7 @@ section .content{
   flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
-  margin-bottom: -40px;
+  margin-bottom: -38px;
 }
 .technologies .boxes .box{
   display: flex;
@@ -855,9 +855,6 @@ footer .textFooter span{
     margin: 20px 0;
     width: 100%;
   }
-  .contact .text{
-    /* width: 100%; */
-}
 }
 @media (max-width: 500px){
   .home .text-two{

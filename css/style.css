@@ -988,6 +988,9 @@ footer .textFooter span{
     justify-content: center;
     align-items: center; */
   }
+  .services .boxes .box .textBoxesAlt1{
+    font-size: 16px;
+  }
   .technologies-details .boxes .per{
     font-size: 50px;
     color: #ED9121;

@@ -823,6 +823,9 @@ footer .textFooter span{
   .home .text-three{
     font-size: 35px;
   }
+  .about-details .right .topicMision{
+    text-align: center;
+  }
   .about-details .right .textMision{
     text-align: center;
   }

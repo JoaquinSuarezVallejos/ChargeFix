@@ -945,17 +945,55 @@ footer .textFooter span{
   }
 }
 @media (max-width: 500px){
+  .home .text-one{
+    font-size: 58px;
+    text-align: center;
+    margin-bottom: 8px;
+    /* margin-top: -150px; */
+  }
   .home .text-two{
-    font-size: 55px;
+    font-size: 52px;
+    text-align: center;
   }
   .home .text-three{
-    font-size: 33px;
+    font-size: 28px;
+    font-weight: 450;
+    text-align: center;
+  }
+  .home .text-four{
+    font-size: 28px;
+    font-weight: 450;
+    text-align: center;
+  }
+  .home .contact-us-btn button{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .home .contact-us-btn button:hover{
+    border-color: #ED9121;
+    background-color: #1A1A1A;
+    color: #ED9121;
+    transform: scale(1.02);
+    margin: 0 auto;
+  }
+  .about .left img{
+    width: 380px;
+    height: 230px;
+    object-fit: cover;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
   }
   .technologies-details .boxes .per{
     font-size: 50px;
     color: #ED9121;
   }
+  .scroll-up-button{
+    display: none;
+  }
 }
 /* ------------------------------------------------------------------------------------------------------------- */
-
-

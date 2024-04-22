@@ -22,7 +22,7 @@
 ::-webkit-scrollbar-thumb {
     background: #F2B263;
     border-radius: 12px;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #ED9121;
@@ -210,6 +210,13 @@ nav.sticky .menu-btn{
   flex-direction: column;
   justify-content: center;
 }
+.home .ChargeFix_Logo{
+  display: flex;
+  float: right;
+  height: 400px;
+  margin-top: 30px;
+  margin-right: 6px;
+}
 .home .text-one{
   color: #fff;
   font-size: 80px;
@@ -237,19 +244,19 @@ nav.sticky .menu-btn{
   color: #fff;
 }
 .home .contact-us-btn .contact-us-icon{
-  display: inline-block;
+  display: inline-flex;
   margin-right: 4px;
 }
-.home .contact-us-btn button{
+.home .contact-us-btn{
   margin-top: 48px;
-  margin-bottom: -25px;
+  margin-bottom: -20px;
   margin-left: 1px;
 }
 .home .contact-us-btn button{
   outline: none;
   padding: 8px 16px;
   border-radius: 8px;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   background: #ED9121;
   color: #fff;
@@ -257,11 +264,14 @@ nav.sticky .menu-btn{
   border: 2px solid transparent;
   transition: all 0.4s ease;
   font-family: 'Poppins', sans-serif;
+  margin-left: 1px;
 }
 .home .contact-us-btn button:hover{
   border-color: #ED9121;
   background-color: #1A1A1A;
   color: #ED9121;
+  transform: scale(1.02);
+  margin-left: 4px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -419,12 +429,12 @@ section .content{
   margin: 15px -48px;
   /* width: calc(100% / 3 - 15px); */
   width: 420px;
-  height: 250px;
+  height: 255px;
   align-items: center;
   text-align: center;
   border-radius: 12px;
   padding: 20px 15px;
-  box-shadow: 6px 6px 0px 0px #fff;
+  box-shadow: 6px 6px 0px 0px #999999;
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -460,8 +470,8 @@ section .content{
 .services .boxes .box .topicBoxes1{
   font-size: 26px;
   font-weight: 600;
-  margin-top: 12px;
-  margin-bottom: 5px;
+  margin-top: 14px;
+  margin-bottom: 6px;
   font-family: 'Poppins', sans-serif;
 }
 .services .boxes .box .textBoxes1{
@@ -537,7 +547,7 @@ section .content{
   background-color: #1A1A1A;
   margin: 15px -48px;
   /* width: calc(100% / 3 - 15px); */
-  width: 300px;
+  width: 308px;
   height: 320px;
   align-items: center;
   text-align: center;
@@ -579,17 +589,12 @@ section .content{
 .technologies .boxes .box .topicBoxes2{
   font-size: 26px;
   font-weight: 600;
-  margin-top: 12px;
-  margin-bottom: 5px;
+  margin-top: 14px;
+  margin-bottom: 6px;
   font-family: 'Poppins', sans-serif;
 }
 .technologies .boxes .box .textBoxes2{
   font-size: 18px;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
-}
-.textBoxesAlt2{
-  font-size: 17px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
@@ -652,19 +657,21 @@ section .content{
   font-size: 22px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
 }
 .contact .contactButtons{
   display: flex;
   justify-content: center;
-  margin: 14px;
+  align-items: center;
 }
 .contact .contactButtons .contactIcons{
-  display: inline-block;
+  display: inline-flex;
+  margin-right: 2px;
 }
 .contact .contactButtons button{
   outline: none;
   padding: 8px 20px;
-  margin-left: 26px;
+  margin: 10px;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-size: 24px;  
@@ -679,6 +686,7 @@ section .content{
   border-color: #ED9121;
   background-color: #1A1A1A;
   color: #ED9121;
+  transform: scale(1.02);
 }
 .contact .contactButtons .btnWhatsApp{
   background-color: #1DAA61;
@@ -688,11 +696,11 @@ section .content{
   background-color: #1A1A1A;
   color: #1DAA61;
 }
-
 .contact .text-ubicacion{
   font-size: 18px;
-  font-weight: 200;
-  margin-top: 25px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 2px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -707,17 +715,15 @@ footer{
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
-footer .text span{
-  font-size: 17px;
+footer .textFooter{
+  font-size: 18px;
   font-weight: 400;
   color: #fff;
 }
-footer .text span a{
-  font-weight: 500;
-  color: #FFF;
-}
-footer .text span a:hover{
-  text-decoration: underline;
+footer .textFooter span{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 

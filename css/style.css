@@ -167,7 +167,7 @@ nav.sticky .menu .navbarContact-btn:hover{
   margin-right: 2px;
 }
 nav.sticky .WhatsApp-navbar{
-  color: #fff;
+  color: #fff !important;
 }
 nav.sticky .WhatsApp-navbar:hover{
   color: #000;
@@ -351,13 +351,13 @@ section .content{
 }
 .about-details .right .topicMision{
   color: #fff;
-  font-size: 28px;
-  font-weight: 550;
+  font-size: 26px;
+  font-weight: 600;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
   text-underline-offset: 6px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .about-details .right .textMision{
   color: #fff;
@@ -372,21 +372,21 @@ section .content{
 .about .about-details .experience{
   display: flex;
   align-items: center;
-  margin: 0 0px;
+  margin-top: -22px;
+  margin-bottom: -12px;
 }
 .about-details .experience .num{
-  color: #fff;
-  font-size: 80px;
+  color: #ED9121;
+  font-size: 70px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
 }
 .about-details .experience .exp{
   color: #fff;
-  margin-left: 20px;
+  margin-left: 13px;
   font-size: 20px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  margin: 0 12px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 

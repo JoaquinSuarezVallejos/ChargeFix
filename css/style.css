@@ -33,16 +33,17 @@
 /* Menú de Navegación (NavBar) */
 /* ------------------------------------------------------------------------------------------------------------- */
 nav{
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
-  padding: 20px 0;
+  padding: 14px 0;
   z-index: 998;
   transition: all 0.3s ease;
+  background: #ED9121;
 }
-nav.sticky{
+/* nav.sticky{
   background: #ED9121;
   padding: 13px 0;
-}
+} */
 nav .navbar{
   width: 90%;
   display: flex;
@@ -53,7 +54,7 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 750;
   font-size: 35px;
-  color: #ED9121;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 nav.sticky .navbar .logo a{
@@ -79,7 +80,7 @@ nav .navbar .menu li{
   font-family: 'Poppins', sans-serif;
 }
 .navbar .menu .navbarHome-btn:hover{
-  color: #ED9121;
+  color: #000;
 }
 nav.sticky .menu .navbarHome-btn:hover{
   color: #000;
@@ -96,7 +97,7 @@ nav.sticky .menu .navbarHome-btn:hover{
   font-family: 'Poppins', sans-serif;
 }
 .navbar .menu .navbarAbout-btn:hover{
-  color: #ED9121;
+  color: #000;
 }
 nav.sticky .menu .navbarAbout-btn:hover{
   color: #000;
@@ -113,7 +114,7 @@ nav.sticky .menu .navbarAbout-btn:hover{
   font-family: 'Poppins', sans-serif;
 }
 .navbar .menu .navbarService-btn:hover{
-  color: #ED9121;
+  color: #000;
 }
 nav.sticky .menu .navbarService-btn:hover{
   color: #000;
@@ -130,7 +131,7 @@ nav.sticky .menu .navbarService-btn:hover{
   font-family: 'Poppins', sans-serif;
 }
 .navbar .menu .navbarTechnologies-btn:hover{
-  color: #ED9121;
+  color: #000;
 }
 nav.sticky .menu .navbarTechnologies-btn:hover{
   color: #000;
@@ -147,20 +148,20 @@ nav.sticky .menu .navbarTechnologies-btn:hover{
   font-family: 'Poppins', sans-serif;
 }
 .navbar .menu .navbarContact-btn:hover{
-  color: #ED9121;
+  color: #000;
 }
 nav.sticky .menu .navbarContact-btn:hover{
   color: #000;
 }
 .navbar .WhatsApp-navbar{
-  color: #1DAA61;
+  color: #fff;
   font-size: 22px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   transition: all 0.4s ease;
 }
 .navbar .WhatsApp-navbar:hover{
-  color: #fff;
+  color: #000;
   cursor: pointer;
 }
 .navbar .WhatsApp-navbar i{
@@ -185,6 +186,7 @@ nav.sticky .WhatsApp-navbar:hover{
   background-position: center;
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: -80px;
 }
 .home .home-content{
   width: 90%;
@@ -198,7 +200,7 @@ nav.sticky .WhatsApp-navbar:hover{
   display: flex;
   float: right;
   height: 400px;
-  margin-top: 30px;
+  margin-top: -40px;
   margin-right: 6px;
 }
 .home .text-one{
@@ -206,6 +208,7 @@ nav.sticky .WhatsApp-navbar:hover{
   font-size: 80px;
   font-weight: 800;
   margin-bottom: -6px;
+  margin-top: -70px;
 }
 .home .text-two{
   font-size: 70px;
@@ -732,6 +735,7 @@ footer .textFooter span{
   position: fixed;
   bottom: 20px;
   right: 20px;
+  cursor: pointer;
   color: #fff;
   background: #ED9121;
   padding: 7px 12px;;
@@ -739,12 +743,99 @@ footer .textFooter span{
   border-radius: 6px;
   box-shadow: 3px 3px 2px #191919;
   display: none;
+  transition: all 0.4s ease;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
 /* Responsive Media Query */
 /* ------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 1920px) {
+  .home{
+    margin-bottom: -80px;
+  }
+  .home .ChargeFix_Logo{
+    height: 500px;
+    margin-top: -120px;
+  }
+  .home .text-one{
+    font-size: 100px;
+    margin-top: -140px;
+  }
+  .home .text-two{
+    font-size: 90px;
+  }
+  .home .text-three{
+    font-size: 40px;
+  }
+  .home .text-four{
+    font-size: 40px;
+  }
+  .home .contact-us-btn button{
+    font-size: 36px;
+  }
+  .about .left img{
+    margin-left: 130px;
+  }
+  .about-details .right .textMision{
+    font-size: 20px;
+  }
+  .services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+  }
+  .technologies .boxes{
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1600px) {
+  .home{
+    margin-bottom: -80px;
+  }
+  .home .ChargeFix_Logo{
+    display: flex;
+    float: right;
+    height: 400px;
+    margin-top: -140px;
+    margin-right: 6px;
+    margin-bottom: -30px;
+  }
+  .home .text-one{
+    font-size: 80px;
+    margin-top: -160px;
+  }
+  .home .text-two{
+    font-size: 70px;
+  }
+  .home .text-three{
+    font-size: 30px;
+  }
+  .home .text-four{
+    font-size: 30px;
+  }
+  .home .contact-us-btn button{
+    font-size: 28px;
+    margin-bottom: -50px;
+  }
+  .about .left img{
+    width: 512px;
+    height: 341px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-left: 7px;
+  }
+  .about-details .right .textMision{
+    font-size: 19px;
+  }
+  /* .services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+  } */
+  .technologies .boxes{
+    justify-content: space-between;
+  }
+}
+
 @media (max-width: 1190px) {
   section .content{
     width: 85%;
@@ -833,9 +924,6 @@ footer .textFooter span{
     justify-content: center;
     margin-bottom: -50px;
   }
-  /* .technologies .content .titleTecnologias span{
-    font-size: 40px;
-  } */
   .technologies .technologies-details{
     align-items: center;
     justify-content: center;
@@ -869,3 +957,5 @@ footer .textFooter span{
   }
 }
 /* ------------------------------------------------------------------------------------------------------------- */
+
+

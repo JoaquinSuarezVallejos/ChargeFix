@@ -14,20 +14,26 @@
   <body>
     <!-- Flecha Scroll Up (Volver a Inicio) -->
     <div class="scroll-up-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+      <a><i class="fas fa-arrow-up"></i></a>
     </div>
 
     <!-- Menú de Navegación (NavBar) -->
     <!----------------------------------------------------------------------------------------------------------->
     <nav>
-      <div class="navbar">
+      <div class="navbar" id="navbar">
         <div class="logo"><a href="#">ChargeFix</a></div>
         <ul class="menu">
-          <li><button class="navbarHome-btn">Inicio</button></li>
+          <!-- <li><button class="navbarHome-btn">Inicio</button></li>
           <li><button class="navbarAbout-btn">Nosotros</button></li>
           <li><button class="navbarService-btn">Servicio</button></li>
           <li><button class="navbarTechnologies-btn">Tecnologías</button></li>
-          <li><button class="navbarContact-btn">Contacto</button></li>
+          <li><button class="navbarContact-btn">Contacto</button></li> -->
+
+          <li><a class="navbarHome-btn">Inicio</a></li>
+          <li><a href="#about" class="navbarAbout-btn">Nosotros</a></li>
+          <li><a href="#services" class="navbarService-btn">Servicio</a></li>
+          <li><a href="#technologies" class="navbarTechnologies-btn">Tecnologías</a></li>
+          <li><a href="#contact" class="navbarContact-btn">Contacto</a></li>
         </ul>
         <div class="WhatsApp-navbar"> 
           <i class="fab fa-whatsapp"></i>

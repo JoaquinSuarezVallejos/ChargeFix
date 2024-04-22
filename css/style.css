@@ -167,35 +167,10 @@ nav.sticky .menu .navbarContact-btn:hover{
   margin-right: 2px;
 }
 nav.sticky .WhatsApp-navbar{
-  color: #fff !important;
+  color: #fff;
 }
 nav.sticky .WhatsApp-navbar:hover{
   color: #000;
-}
-/* ------------------------------------------------------------------------------------------------------------- */
-
-
-/* Menú de Navegación para Mobile (Side Navigation for Mobile) */
-/* ------------------------------------------------------------------------------------------------------------- */
-nav .menu-btn,
-.navbar .menu .cancel-btn{
-  position: absolute;
-  color: #fff;
-  right: 30px;
-  top: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: none;
-}
-nav .menu-btn{
-  color: #ED9121;
-}
-nav.sticky .menu-btn{
-  color: #FFF;
-}
-.navbar .menu .menu-btn{
-  color: #fff;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 

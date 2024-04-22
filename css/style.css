@@ -493,6 +493,7 @@ section .content{
 .technologies .content .titleTecnologias{
   display: flex;
   justify-content: center;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   margin-top: -80px;
   margin-bottom: 38px;
@@ -501,6 +502,7 @@ section .content{
   color: #fff;
   font-size: 38px;
   font-weight: 650;
+  text-align: center;
   position: relative;
   padding-bottom: 7px;
 }
@@ -525,7 +527,7 @@ section .content{
   flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
-  margin-bottom: -38px;
+  margin-bottom: -40px;
 }
 .technologies .boxes .box{
   display: flex;
@@ -774,6 +776,12 @@ footer .textFooter span{
   }
 }
 @media (max-width: 750px) {
+  .home .ChargeFix_Logo{
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
   nav .navbar{
     width: 90%;
   }
@@ -802,7 +810,7 @@ footer .textFooter span{
   nav.sticky .menu a:hover{
     color: #ED9121;
   }
-  nav .navbar .phone-navbar{
+  nav .navbar .WhatsApp-navbar{
     display: none;
   }
   nav .menu-btn,
@@ -815,16 +823,27 @@ footer .textFooter span{
   .home .text-three{
     font-size: 35px;
   }
+  .about-details .right .textMision{
+    text-align: center;
+  }
+  .about .about-details .experience{
+    justify-content: center;
+    margin-bottom: -50px;
+  }
+  /* .technologies .content .titleTecnologias span{
+    font-size: 40px;
+  } */
   .technologies .technologies-details{
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .technologies-details .text{
+  .technologies .text{
     width: 100%;
     margin-bottom: 50px;
   }
-  .technologies-details .boxes{
+  .technologies .boxes{
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -834,7 +853,7 @@ footer .textFooter span{
     width: 100%;
   }
   .contact .text{
-    width: 100%;
+    /* width: 100%; */
 }
 }
 @media (max-width: 500px){

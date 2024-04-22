@@ -36,7 +36,7 @@ navbar_service_btn.onclick = function() {
 // NavBar: Botón "Tecnologías"
 let navbar_tech_btn = document.querySelector(".navbarTechnologies-btn");
 navbar_tech_btn.onclick = function() {
-  window.scrollTo(0, 1864);
+  window.scrollTo(0, 1862);
 }
 
 // NavBar: Botón "Contacto"

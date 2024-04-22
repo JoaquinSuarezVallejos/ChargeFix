@@ -152,16 +152,25 @@ nav.sticky .menu .navbarTechnologies-btn:hover{
 nav.sticky .menu .navbarContact-btn:hover{
   color: #000;
 }
-.navbar .phone-navbar {
-  color: #ED9121;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0px 6px;
-  text-indent: -25px;
+.navbar .WhatsApp-navbar{
+  color: #1DAA61;
+  font-size: 22px;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  transition: all 0.4s ease;
 }
-nav.sticky .phone-navbar {
-  color: #FFF;
+.navbar .WhatsApp-navbar:hover{
+  color: #fff;
+  cursor: pointer;
+}
+.navbar .WhatsApp-navbar i{
+  margin-right: 2px;
+}
+nav.sticky .WhatsApp-navbar{
+  color: #fff;
+}
+nav.sticky .WhatsApp-navbar:hover{
+  color: #000;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -265,6 +274,9 @@ nav.sticky .menu-btn{
   transition: all 0.4s ease;
   font-family: 'Poppins', sans-serif;
   margin-left: 1px;
+}
+.home .contact-us-btn span{
+  color: #fff;
 }
 .home .contact-us-btn button:hover{
   border-color: #ED9121;
@@ -688,8 +700,17 @@ section .content{
   color: #ED9121;
   transform: scale(1.02);
 }
+.contact .contactButtons .btnEmail a{
+  color: #fff;
+}
+.contact .contactButtons .btnEmail a:hover{
+  color: #fff;
+}
 .contact .contactButtons .btnWhatsApp{
   background-color: #1DAA61;
+}
+.contact .contactButtons .btnWhatsApp a{
+  color: #fff;
 }
 .contact .contactButtons .btnWhatsApp:hover{
   border-color: #1DAA61;

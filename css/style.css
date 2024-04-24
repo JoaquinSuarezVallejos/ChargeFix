@@ -746,7 +746,7 @@ footer .textFooter span{
 
 /* Responsive Media Queries */
 /* ------------------------------------------------------------------------------------------------------------- */
-@media (max-width: 1920px) {
+@media (max-width: 2200px) {
   .home{
     margin-bottom: -80px;
   }
@@ -770,8 +770,8 @@ footer .textFooter span{
   .home .contact-us-btn button{
     font-size: 36px;
   }
-  .about .left img{
-    margin-left: 130px;
+  .about .content{
+    width: 65%;
   }
   .about-details .right .textMision{
     font-size: 20px;
@@ -784,6 +784,55 @@ footer .textFooter span{
     justify-content: space-evenly;
   }
 }
+
+@media (max-width: 1880px){
+  .about .content{
+    width: 67%;
+  }
+}
+
+@media (max-width: 1850px){
+  .technologies .boxes{
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1832px){
+  .about .content{
+    width: 69%;
+  }
+}
+
+@media (max-width: 1780px){
+  .about .content{
+    width: 71%;
+  }
+}
+
+@media (max-width: 1730px){
+  .about .content{
+    width: 73%;
+  }
+}
+
+@media (max-width: 1700px){
+  .technologies .boxes{
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1682px){
+  .about .content{
+    width: 75%;
+  }
+}
+
+@media (max-width: 1640px){
+  .about .content{
+    width: 77%;
+  }
+}
+
 @media (max-width: 1600px) {
   .home{
     margin-bottom: -80px;
@@ -832,12 +881,88 @@ footer .textFooter span{
   }
 }
 
-@media (max-width: 1190px) {
-  section .content{
-    width: 85%;
+@media (max-width: 1595px){
+  .about .content{
+    width: 79%;
   }
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1535px){
+
+}
+
+@media (max-width: 1520px){
+  .about .content{
+    width: 83%;
+  }
+  .technologies .boxes{
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1490px){
+
+}
+
+@media (max-width: 1475px){
+  .about .content{
+    width: 86%;
+  }
+}
+
+@media (max-width: 1460px){
+
+}
+
+@media (max-width: 1430px){
+
+}
+
+@media (max-width: 1420px){
+  .about .content{
+    width: 89%;
+  }
+}
+
+@media (max-width: 1400px){
+
+}
+
+@media (max-width: 1370px){
+  .about .content{
+    width: 92%;
+  }
+}
+
+@media (max-width: 1328px){
+  .about .content{
+    width: 95%;
+  }
+}
+
+@media (max-width: 1280px){
+  .about .content{
+    width: 98%;
+  }
+  .about .left img{
+    width: 487px;
+    height: 324px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-left: 7px;
+  }
+}
+
+@media (max-width: 1240px){
+  .about .content{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home .ChargeFix_Logo{
+    display: none;
+  }
   .about .about-details{
     justify-content: center;
     flex-direction: column;
@@ -851,17 +976,56 @@ footer .textFooter span{
     width: 90%;
     margin: 40px 0;
   }
+  .about-details .right .topicMision{
+    text-align: center;
+  }
+  .about-details .right .textMision{
+    text-align: center;
+  }
+  .about-details .right .experience{
+    justify-content: center;
+  }
   .services .boxes .box{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
+  .technologies .boxes .box{
+    margin: 16px 5px;
+    width: calc(100% / 2 - 20px);
+  }
 }
+
+@media (max-width: 1190px) {
+  section .content{
+    width: 85%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .navbar .menu .navbarHome-btn{
+    display: none;
+  }
+  .navbar .menu .navbarAbout-btn{
+    display: none;
+  }
+  .navbar .menu .navbarService-btn{
+    display: none;
+  }
+  .navbar .menu .navbarTechnologies-btn{
+    display: none;
+  }
+  .navbar .menu .navbarContact-btn{
+    display: none;
+  }
+}
+
 @media (max-width: 900px) {
   .about .left img{
     height: 350px;
     width: 350px;
   }
 }
+
 @media (max-width: 750px) {
   .home .ChargeFix_Logo{
     display: none;
@@ -897,13 +1061,6 @@ footer .textFooter span{
   nav.sticky .menu a:hover{
     color: #ED9121;
   }
-  nav .navbar .WhatsApp-navbar{
-    display: none;
-  }
-  nav .menu-btn,
-  .navbar .menu .cancel-btn{
-    display: block;
-  }
   .home .text-two{
     font-size: 65px;
   }
@@ -929,7 +1086,7 @@ footer .textFooter span{
     width: 100%;
     margin-bottom: 50px;
   }
-  .technologies .boxes{
+  .technologies .boxes .box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -940,12 +1097,12 @@ footer .textFooter span{
     width: 100%;
   }
 }
+
 @media (max-width: 500px){
   .home .text-one{
     font-size: 58px;
     text-align: center;
     margin-bottom: 8px;
-    /* margin-top: -150px; */
   }
   .home .text-two{
     font-size: 52px;
@@ -975,14 +1132,21 @@ footer .textFooter span{
     transform: scale(1.02);
     margin: 0 auto;
   }
+  nav .navbar .WhatsApp-navbar{
+    display: none;
+  }
+  nav .navbar{
+    justify-content: center;
+  }
+  nav .navbar .logo a{
+    font-weight: 800;
+    font-size: 46px;
+  }
   .about .left img{
     width: 380px;
     height: 230px;
     object-fit: cover;
     margin: 0 auto;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
   }
   .services .boxes .box .textBoxesAlt1{
     font-size: 16px;
@@ -993,6 +1157,54 @@ footer .textFooter span{
   }
   .scroll-up-button{
     display: none;
+  }
+}
+
+@media (max-width: 385px){
+  .home .text-one{
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .home .text-two{
+    font-size: 42px;
+    text-align: center;
+  }
+  .home .text-three{
+    font-size: 25px;
+    font-weight: 450;
+    text-align: center;
+  }
+  .home .text-four{
+    font-size: 25px;
+    font-weight: 450;
+    text-align: center;
+  }
+  .home .contact-us-btn button{
+    font-size: 24px;
+    margin-bottom: -10px;
+  }
+  .about .left img{
+    width: 292px;
+    height: 177px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .about .about-details .topicMision{
+    font-size: 23px;
+  }
+  .about .about-details .textMision{
+    font-size: 18px;
+  }
+  footer .textFooter{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  footer .textFooter span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
   }
 }
 /* ------------------------------------------------------------------------------------------------------------- */

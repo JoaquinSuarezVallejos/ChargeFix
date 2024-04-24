@@ -40,10 +40,6 @@ nav{
   transition: all 0.3s ease;
   background: #ED9121;
 }
-/* nav.sticky{
-  background: #ED9121;
-  padding: 13px 0;
-} */
 nav .navbar{
   width: 90%;
   display: flex;
@@ -748,7 +744,7 @@ footer .textFooter span{
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
-/* Responsive Media Query */
+/* Responsive Media Queries */
 /* ------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 1920px) {
   .home{

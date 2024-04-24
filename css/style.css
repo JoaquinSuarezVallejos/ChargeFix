@@ -1019,13 +1019,6 @@ footer .textFooter span{
   }
 }
 
-@media (max-width: 900px) {
-  .about .left img{
-    height: 350px;
-    width: 350px;
-  }
-}
-
 @media (max-width: 750px) {
   .home .ChargeFix_Logo{
     display: none;

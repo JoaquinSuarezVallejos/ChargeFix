@@ -195,9 +195,8 @@ nav.sticky .WhatsApp-navbar:hover{
 .home .ChargeFix_Logo{
   display: flex;
   float: right;
-  height: 400px;
-  margin-top: -40px;
-  margin-right: 6px;
+  height: 500px;
+  margin-top: -140px;
 }
 .home .text-one{
   color: #fff;
@@ -215,25 +214,13 @@ nav.sticky .WhatsApp-navbar:hover{
 .home .text-three{
   font-size: 30px;
   font-weight: 500;
-  padding: 20px 0px;
-  margin-left: 1px;
-  color: #fff;
-}
-.home .text-four{
-  font-size: 30px;
-  font-weight: 500;
-  margin: -14px 0px;
+  padding: 21px 0px;
   margin-left: 1px;
   color: #fff;
 }
 .home .contact-us-btn .contact-us-icon{
   display: inline-flex;
   margin-right: 4px;
-}
-.home .contact-us-btn{
-  margin-top: 48px;
-  margin-bottom: -20px;
-  margin-left: 1px;
 }
 .home .contact-us-btn button{
   outline: none;
@@ -247,7 +234,8 @@ nav.sticky .WhatsApp-navbar:hover{
   border: 2px solid transparent;
   transition: all 0.4s ease;
   font-family: 'Poppins', sans-serif;
-  margin-left: 1px;
+  margin-left: 2px;
+  margin-top: 20px;
 }
 .home .contact-us-btn span{
   color: #fff;
@@ -764,9 +752,6 @@ footer .textFooter span{
   .home .text-three{
     font-size: 40px;
   }
-  .home .text-four{
-    font-size: 40px;
-  }
   .home .contact-us-btn button{
     font-size: 36px;
   }
@@ -785,6 +770,24 @@ footer .textFooter span{
   }
 }
 
+@media (max-width: 1900px){
+  .home .ChargeFix_Logo{
+    height: 490px;
+  }
+  .home .text-one{
+    font-size: 95px;
+  }
+  .home .text-two{
+    font-size: 85px;
+  }
+  .home .text-three{
+    font-size: 38px;
+  }
+  .home .contact-us-btn button{
+    font-size: 36px;
+  }
+}
+
 @media (max-width: 1880px){
   .about .content{
     width: 67%;
@@ -797,9 +800,45 @@ footer .textFooter span{
   }
 }
 
+@media (max-width: 1845px){
+  .home .ChargeFix_Logo{
+    height: 480px;
+  }
+  .home .text-one{
+    font-size: 94px;
+  }
+  .home .text-two{
+    font-size: 84px;
+  }
+  .home .text-three{
+    font-size: 37px;
+  }
+  .home .contact-us-btn button{
+    font-size: 35px;
+  }
+}
+
 @media (max-width: 1832px){
   .about .content{
     width: 69%;
+  }
+}
+
+@media (max-width: 1790px){
+  .home .ChargeFix_Logo{
+    height: 470px;
+  }
+  .home .text-one{
+    font-size: 93px;
+  }
+  .home .text-two{
+    font-size: 83px;
+  }
+  .home .text-three{
+    font-size: 36px;
+  }
+  .home .contact-us-btn button{
+    font-size: 34px;
   }
 }
 
@@ -808,6 +847,25 @@ footer .textFooter span{
     width: 71%;
   }
 }
+
+@media (max-width: 1745px){
+  .home .ChargeFix_Logo{
+    height: 460px;
+  }
+  .home .text-one{
+    font-size: 90px;
+  }
+  .home .text-two{
+    font-size: 80px;
+  }
+  .home .text-three{
+    font-size: 34px;
+  }
+  .home .contact-us-btn button{
+    font-size: 32px;
+  }
+}
+
 
 @media (max-width: 1730px){
   .about .content{
@@ -827,9 +885,45 @@ footer .textFooter span{
   }
 }
 
+@media (max-width: 1670px){
+  .home .ChargeFix_Logo{
+    height: 440px;
+  }
+  .home .text-one{
+    font-size: 85px;
+  }
+  .home .text-two{
+    font-size: 75px;
+  }
+  .home .text-three{
+    font-size: 30px;
+  }
+  .home .contact-us-btn button{
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1640px){
   .about .content{
     width: 77%;
+  }
+}
+
+@media (max-width: 1630px){
+  .home .ChargeFix_Logo{
+    height: 420px;
+  }
+  .home .text-one{
+    font-size: 84px;
+  }
+  .home .text-two{
+    font-size: 74px;
+  }
+  .home .text-three{
+    font-size: 30px;
+  }
+  .home .contact-us-btn button{
+    font-size: 30px;
   }
 }
 
@@ -838,12 +932,8 @@ footer .textFooter span{
     margin-bottom: -80px;
   }
   .home .ChargeFix_Logo{
-    display: flex;
-    float: right;
     height: 400px;
     margin-top: -140px;
-    margin-right: 6px;
-    margin-bottom: -30px;
   }
   .home .text-one{
     font-size: 80px;
@@ -853,9 +943,6 @@ footer .textFooter span{
     font-size: 70px;
   }
   .home .text-three{
-    font-size: 30px;
-  }
-  .home .text-four{
     font-size: 30px;
   }
   .home .contact-us-btn button{
@@ -887,8 +974,41 @@ footer .textFooter span{
   }
 }
 
-@media (max-width: 1535px){
+@media (max-width: 1580px){
+  .home .ChargeFix_Logo{
+    height: 380px;
+  }
+  .home .text-one{
+    font-size: 78px;
+  }
+  .home .text-two{
+    font-size: 68px;
+  }
+  .home .text-three{
+    font-size: 30px;
 
+  }
+  .home .contact-us-btn button{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1550px){
+  .home .ChargeFix_Logo{
+    height: 370px;
+  }
+  .home .text-one{
+    font-size: 78px;
+  }
+  .home .text-two{
+    font-size: 68px;
+  }
+  .home .text-three{
+    font-size: 30px;
+  }
+  .home .contact-us-btn button{
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 1520px){
@@ -900,22 +1020,10 @@ footer .textFooter span{
   }
 }
 
-@media (max-width: 1490px){
-
-}
-
 @media (max-width: 1475px){
   .about .content{
     width: 86%;
   }
-}
-
-@media (max-width: 1460px){
-
-}
-
-@media (max-width: 1430px){
-
 }
 
 @media (max-width: 1420px){
@@ -925,7 +1033,9 @@ footer .textFooter span{
 }
 
 @media (max-width: 1400px){
-
+  .home .ChargeFix_Logo{
+    display: none;
+  }
 }
 
 @media (max-width: 1370px){
@@ -945,21 +1055,14 @@ footer .textFooter span{
     width: 98%;
   }
   .about .left img{
-    width: 487px;
-    height: 324px;
-    object-fit: cover;
-    margin-bottom: 5px;
-    margin-left: 7px;
+    margin-left: 20px;
   }
 }
 
-@media (max-width: 1240px){
+@media (max-width: 1240px) {
   .about .content{
     width: 100%;
   }
-}
-
-@media (max-width: 1200px) {
   .home .ChargeFix_Logo{
     display: none;
   }
@@ -1054,11 +1157,25 @@ footer .textFooter span{
   nav.sticky .menu a:hover{
     color: #ED9121;
   }
+  .home .text-one{
+    font-size: 78px;
+    text-align: center;
+  }
   .home .text-two{
     font-size: 65px;
+    text-align: center;
   }
   .home .text-three{
     font-size: 35px;
+    text-align: center;
+  }
+  .home .contact-us-btn{
+    text-align: center;
+  }
+  .home .contact-us-btn button{
+    font-size: 32px;
+    margin-left: 0px;
+    margin-top: 15px;
   }
   .about-details .right .topicMision{
     text-align: center;
@@ -1106,17 +1223,12 @@ footer .textFooter span{
     font-weight: 450;
     text-align: center;
   }
-  .home .text-four{
-    font-size: 28px;
-    font-weight: 450;
-    text-align: center;
-  }
   .home .contact-us-btn button{
     font-size: 24px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto; */
   }
   .home .contact-us-btn button:hover{
     border-color: #ED9121;
@@ -1164,11 +1276,6 @@ footer .textFooter span{
     text-align: center;
   }
   .home .text-three{
-    font-size: 25px;
-    font-weight: 450;
-    text-align: center;
-  }
-  .home .text-four{
     font-size: 25px;
     font-weight: 450;
     text-align: center;

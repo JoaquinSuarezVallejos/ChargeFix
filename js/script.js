@@ -1,5 +1,4 @@
-// Menú de Navegación (NavBar) y Flecha Scroll Up (Volver a Inicio)
-let nav = document.querySelector("nav");
+// Flecha Scroll Up (Volver a Inicio)
 let scrollBtn = document.querySelector(".scroll-up-button a");
 window.onscroll = function() {
   if (document.documentElement.scrollTop > 100) {

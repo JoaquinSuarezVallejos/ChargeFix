@@ -200,6 +200,9 @@ section .content{
   justify-content: space-between;
   align-items: center;
 }
+.about .content{
+  padding-bottom: 6px;
+}
 .about .content .titleNosotros{
   display: flex;
   justify-content: center;
@@ -236,17 +239,18 @@ section .content{
 .about .left img{
   width: 512px;
   height: 341px;
+  /* width: 537px;
+  height: 358px; */
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 8px 8px 3px #191919;
-  margin-bottom: 5px;
 }
 .about-details .right{
   width: 55%;
 }
 .about-details .right .topicMision{
   color: #fff;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -272,14 +276,14 @@ section .content{
 }
 .about-details .experience .num{
   color: #ED9121;
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
 }
 .about-details .experience .exp{
   color: #fff;
   margin-left: 13px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
 }
@@ -290,6 +294,9 @@ section .content{
 /* ------------------------------------------------------------------------------------------------------------- */
 .services{
   background-color: #1A1A1A;
+}
+.services .content{
+  padding-top: 4px;
 }
 .services .content .titleServicio{
   display: flex;
@@ -596,16 +603,16 @@ section .content{
   color: #ED9121;
   transform: scale(1.02);
 }
-.contact .contactButtons .btnEmail a{
+.contact .contactButtons .btnEmail span{
   color: #fff;
 }
-.contact .contactButtons .btnEmail a:hover{
+.contact .contactButtons .btnEmail span:hover{
   color: #fff;
 }
 .contact .contactButtons .btnWhatsApp{
   background-color: #1DAA61;
 }
-.contact .contactButtons .btnWhatsApp a{
+.contact .contactButtons .btnWhatsApp span{
   color: #fff;
 }
 .contact .contactButtons .btnWhatsApp:hover{
@@ -627,7 +634,7 @@ section .content{
   margin-top: 15px;
   margin-bottom: 2px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; 
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
@@ -890,8 +897,6 @@ footer .textFooter span{
     width: 512px;
     height: 341px;
     object-fit: cover;
-    margin-bottom: 5px;
-    margin-left: 7px;
   }
   .about-details .right .textMision{
     font-size: 19px;

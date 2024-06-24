@@ -11,6 +11,95 @@
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
+
+/* Form */
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.fontFamily{
+  font-family: 'Poppins', sans-serif;
+}
+
+.formErrorStyle{
+  color: rgb(255, 167, 3);
+}
+
+.formError{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  background-color: #ff0000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.formeMessage{
+  padding: 20px;
+}
+
+.formSuccess{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #ED9121;
+  display: inline-block;
+  background-color: #4CAF50;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+input, textarea {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #333333;
+  color: #ccc;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+
+input[type=submit]:hover {
+  background-color: #207a25;
+}
+
+@media (max-width: 2600px) {
+  input, textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  .formError, .formSuccess{
+    width: 40%;
+  }  
+
+}
+
+@media (max-width: 750px){
+  input, textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+  }
+  .formError, .formSuccess{
+    width: 100%;
+  }  
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
 /* Barra de Desplazamiento (Custom Scroll Bar) */
 /* ------------------------------------------------------------------------------------------------------------- */
 ::-webkit-scrollbar {
@@ -579,6 +668,15 @@ section .content{
   justify-content: center;
   align-items: center;
 }
+
+.submitButton{
+  height: 50px;
+}
+
+.email{
+  margin-top: 100px;
+}
+
 .contact .contactButtons .contactIcons{
   display: inline-flex;
   margin-right: 2px;

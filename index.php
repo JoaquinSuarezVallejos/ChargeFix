@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<?php include 'email.php' ?>
+
 <html lang="es" dir="ltr">
   <head>
     <meta charset="UTF-8" />
@@ -29,7 +32,7 @@
           <li><a href="#contact" class="navbarContact-btn">Contacto</a></li>
         </ul>
         <div class="navbar-contactButtons">
-          <a class="far fa-envelope whatsappBtn-navbar" href="mailto:contacto@chargefix.com.ar"></a>
+          <a class="far fa-envelope whatsappBtn-navbar" href="#contact"></a>
           <a class="fab fa-whatsapp emailBtn-navbar" href="https://wa.me/5491126438752" target="_blank"></a>
         </div>
     </nav>
@@ -197,12 +200,6 @@
           <div class="topicContacto">¿En qué podemos ayudar?</div>
           <div class="textContacto">Envíenos un mensaje, <br> responderemos a la brevedad.</div>
           <div class="contactButtons">  
-            <a href="mailto:contacto@chargefix.com.ar">
-              <button class="btnEmail">
-                <div class="contactIcons"> <i class="far fa-envelope"></i> </div>
-                <span>Email</span>
-              </button>
-            </a> 
             <a href="https://wa.me/5491126438752" target="_blank">
               <button class="btnWhatsApp">
                 <div class="contactIcons"> <i class="fab fa-whatsapp"></i> </div>
@@ -210,6 +207,52 @@
               </button>
             </a>
           </div>
+
+          
+
+        <span id="formInfo">
+          <?php echo $alert;?> <!-- Feedback del formulario -->
+        </span>
+
+          <img id="formAdvIcon" hidden="true" width="50" height="45" img src="images/adv.png" alt="">
+          </img> <p class="formErrorStyle" id="formError"></P>
+
+          <br>
+          <br>
+
+          <div class="textContacto">Email</div>
+
+          <form id="contactForm" method="post">
+            <div>
+              <div>
+                <input class="fontFamily" type="text" name="name" placeholder="Su Nombre *" id="name">
+              </div>
+    
+              <div>
+                <input class="fontFamily" type="email" name="email" placeholder="Email *" id="email">
+              </div>
+    
+              <div>
+                <input class="fontFamily" type="number"  name="phone" placeholder="Teléfono de contacto *" id="phone">
+              </div>
+    
+              <div>
+                <textarea class="fontFamily" name="message" rows="6" id="message" placeholder="Mensaje *"></textarea>
+              </div>
+    
+              <div class="contactButtons">  
+                <button class="submitButton" id="fomrSubmit" type="submit">
+                <span>Enviar</span>
+                </button>
+              </div>
+
+            </div>
+          </form>
+
+
+
+
+
           <div class="text-ubicacion">📍 San Isidro, Provincia de Buenos Aires, Argentina.</div>
           <div class="emailContactoText">contacto@chargefix.com.ar</div>
         </div>

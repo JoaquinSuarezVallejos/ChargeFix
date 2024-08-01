@@ -1,5 +1,3 @@
-
-
 // Flecha Scroll Up (Volver a Inicio)
 let scrollBtn = document.querySelector(".scroll-up-button a");
 window.onscroll = function () {
@@ -24,10 +22,7 @@ if (window.history.replaceState) {
   window.history.replaceState(null, null, window.location.href);
 }
 
-
-
 /*----------------- Validación del Formulario de Contacto ------------------------- */
-
 
 const formName = document.getElementById("name");
 const formPhone = document.getElementById("phone");
@@ -48,7 +43,6 @@ form.addEventListener('submit', (e) =>{
   else if (formPhone.value.length < 10) { errorMessage = 'Por favor, verifique el número de teléfono e incluya el código de área.'; }
   else if (formMessage.value.length < 10){ errorMessage = 'Por favor, ingrese un mensaje breve.'; }
   
-
   if (errorMessage.length > 0){ 
     e.preventDefault(); 
     formError.innerText = errorMessage;
@@ -59,7 +53,6 @@ form.addEventListener('submit', (e) =>{
     formAdvIcon.hidden = true;
   }
 });
-
 
 form.addEventListener('click', (e) =>{
   formInfo.hidden = true;

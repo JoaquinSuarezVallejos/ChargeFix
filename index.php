@@ -198,7 +198,7 @@
         <div class="titleContacto"><span>Contacto</span></div>
         <div class="text">
           <div class="topicContacto">¿En qué podemos ayudar?</div>
-          <div class="textContacto">Envíenos un mensaje, <br> responderemos a la brevedad.</div>
+          <div class="textContacto">Envíenos un mensaje por WhatsApp o por Email, <br> responderemos a la brevedad.</div>
           <div class="contactButtons">  
             <a href="https://wa.me/5491126438752" target="_blank">
               <button class="btnWhatsApp">
@@ -208,8 +208,6 @@
             </a>
           </div>
 
-          
-
         <span id="formInfo">
           <?php echo $alert;?> <!-- Feedback del formulario -->
         </span>
@@ -218,14 +216,13 @@
           </img> <p class="formErrorStyle" id="formError"></P>
 
           <br>
-          <br>
 
-          <div class="textContacto">Email</div>
+          <h3 class="contact-form-title-text">Formulario de Contacto (Email):</h3>
 
           <form id="contactForm" method="post">
             <div>
               <div>
-                <input class="fontFamily" type="text" name="name" placeholder="Su Nombre *" id="name">
+                <input class="fontFamily" type="text" name="name" placeholder="Nombre *" id="name">
               </div>
     
               <div>
@@ -239,19 +236,16 @@
               <div>
                 <textarea class="fontFamily" name="message" rows="6" id="message" placeholder="Mensaje *"></textarea>
               </div>
-    
+              
               <div class="contactButtons">  
-                <button class="submitButton" id="fomrSubmit" type="submit">
+                <button class="submitButton" id="formSubmit" name="formSubmit" type="submit">
                 <span>Enviar</span>
                 </button>
               </div>
-
             </div>
           </form>
 
-
-
-
+          <br>
 
           <div class="text-ubicacion">📍 San Isidro, Provincia de Buenos Aires, Argentina.</div>
           <div class="emailContactoText">contacto@chargefix.com.ar</div>

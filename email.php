@@ -21,7 +21,7 @@ $alert = '';
 debug_to_console("PhP Mailer running");
 
 
-if(isset($_POST['fomrSubmit'])){
+if(isset($_POST['formSubmit'])){
     
     debug_to_console("PhP Mailer submit");
 
@@ -37,7 +37,7 @@ if(isset($_POST['fomrSubmit'])){
         $mail->Host       = 'server9.webhostingargentina.net';      //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         $mail->Username   = 'contacto@chargefix.com.ar';            //SMTP username
-        $mail->Password   = '1g87pK5p?';                            //SMTP password
+        $mail->Password   = 'MhM9DDYYRwkcyai?';                     //SMTP password
         $mail->SMTPSecure = 'ssl';                                  //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     

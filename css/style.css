@@ -521,7 +521,8 @@ section .content {
 }
 .contact .content {
   margin: 0 auto;
-  padding: 30px 0;
+  padding-top: 48px;
+  padding-bottom: 30px;
 }
 .contact .text {
   width: 80%;
@@ -571,21 +572,21 @@ section .content {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   margin-bottom: 15px;
-}
+} 
 .contact .contactButtons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .contactButtons .submitButton {
-  width: 13%;
-  height: 50px;
+  width: 10%;
+  height: 1.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contactButtons .submitButton span {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 22px;
+  font-size: 20px;
 }
 .email {
   margin-top: 100px;
@@ -621,15 +622,15 @@ section .content {
   color: #fff;
 }
 .contact .contactButtons .btnWhatsApp {
-  background-color: #1daa61;
+  background-color: #17884e; /* Alternative color: #1a9957*/
 }
 .contact .contactButtons .btnWhatsApp span {
   color: #fff;
 }
 .contact .contactButtons .btnWhatsApp:hover {
-  border-color: #1daa61;
+  border-color: #17884e; /* Alternative color: #1a9957*/
   background-color: #1a1a1a;
-  color: #1daa61;
+  color: #17884e; /* Alternative color: #1a9957*/
 }
 .contact .text-ubicacion {
   font-size: 18px;
@@ -658,8 +659,6 @@ section .content {
 
 /* Contact Form */
 /* ------------------------------------------------------------------------------------------------------------- */
-
-/* TO-DO: hacer el formulario de contacto responsive (campos, botón de enviar, contact-form-title-text) */
 .fontFamily {
   font-family: "Poppins", sans-serif;
 }
@@ -713,30 +712,6 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   background-color: #207a25;
-}
-@media (max-width: 2600px) {
-  input,
-  textarea {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-  }
-  .formError,
-  .formSuccess {
-    width: 40%;
-  }
-}
-@media (max-width: 750px) {
-  input,
-  textarea {
-    width: 100%;
-    padding: 6px 10px;
-    margin: 8px 0;
-  }
-  .formError,
-  .formSuccess {
-    width: 100%;
-  }
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -1270,6 +1245,14 @@ footer .textFooter span {
     width: 100%;
   }
 }
+@media (max-width: 700px){
+  .contact .text-ubicacion {
+    font-size: 16px;
+  }
+  .contact .emailContactoText {
+    font-size: 16px;
+  }
+}
 @media (max-width: 660px) {
   .home .text-one {
     font-size: 68px;
@@ -1287,6 +1270,11 @@ footer .textFooter span {
   }
   .home .contact-us-btn button {
     font-size: 28px;
+  }
+}
+@media (max-width: 650px){
+  .scroll-up-button {
+    display: none;
   }
 }
 @media (max-width: 550px) {
@@ -1326,9 +1314,6 @@ footer .textFooter span {
   .technologies-details .boxes .per {
     font-size: 50px;
     color: #ed9121;
-  }
-  .scroll-up-button {
-    display: none;
   }
 }
 @media (max-width: 385px) {
@@ -1371,6 +1356,111 @@ footer .textFooter span {
     font-size: 16px;
     font-weight: 600;
     color: #fff;
+  }
+}
+@media (max-width: 2600px) {
+  input,
+  textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  .formError,
+  .formSuccess {
+    width: 40%;
+  }
+}
+@media (max-width: 1700px){
+  input,
+  textarea {
+    width: 50%;
+  }
+  .formError,
+  .formSuccess {
+    width: 50%;
+  }
+}
+@media (max-width: 1400px){
+  input,
+  textarea {
+    width: 62%;
+  }
+  .formError,
+  .formSuccess {
+    width: 62%;
+  }
+}
+@media (max-width: 1030px){
+  input,
+  textarea {
+    width: 75%;
+  }
+  .formError,
+  .formSuccess {
+    width: 75%;
+  }
+}
+@media (max-width: 850px){
+  input,
+  textarea {
+    width: 90%;
+  }
+  .formError,
+  .formSuccess {
+    width: 90%;
+  }
+}
+@media (max-width: 720px) {
+  input,
+  textarea {
+    width: 100%;
+  }
+  .formError,
+  .formSuccess {
+    width: 100%;
+  }
+}
+@media (max-width: 1350px) {
+  .contactButtons .submitButton {
+    width: 12%;
+  }
+}
+@media (max-width: 1070px) {
+  .contactButtons .submitButton {
+    width: 15%;
+  }
+}
+@media (max-width: 880px) {
+  .contactButtons .submitButton {
+    width: 18%;
+  }
+}
+@media (max-width: 730px) {
+  .contactButtons .submitButton {
+    width: 22%;
+  }
+}
+@media (max-width: 600px) {
+  .contactButtons .submitButton {
+    width: 26%;
+  }
+}
+@media (max-width: 500px) {
+  .contactButtons .submitButton {
+    width: 34%;
+  }
+}
+@media (max-width: 400px) {
+  .contactButtons .submitButton {
+    width: 40%;
+  }
+  .contactButtons .submitButton span{
+    font-size: 18px;
+  }
+}
+@media (max-width: 635px){
+  .contact-form-title-text {
+    font-size: 22px;
   }
 }
 /* ------------------------------------------------------------------------------------------------------------- */

@@ -150,7 +150,7 @@
     <!----------------------------------------------------------------------------------------------------------->
     <section class="technologies" id="technologies">
       <div class="content">
-        <div class="titleTecnologias"><span>Tecnologías que manejamos</span></div>
+        <div class="titleTecnologias"><span>Tecnologías</span></div>
         <div class="boxes">
           <div class="box">
             <div class="icon">
@@ -196,7 +196,7 @@
         <div class="titleContacto"><span>Contacto</span></div>
         <div class="text">
           <div class="topicContacto">¿En qué podemos ayudar?</div>
-          <div class="textContacto">Envíenos un mensaje por WhatsApp o por Email, <br> responderemos a la brevedad.</div>
+          <div class="textContacto">Envíenos un mensaje por WhatsApp <br> o por Email, responderemos a la brevedad. </div>
           <div class="contactButtons">  
             <a href="https://wa.me/5491126438752" target="_blank">
               <button class="btnWhatsApp">
@@ -219,23 +219,23 @@
 
           <form id="contactForm" method="post">
             <div>
-              <div>
+              <div class="formFields">
                 <input class="fontFamily" type="text" name="name" placeholder="Nombre *" id="name">
               </div>
     
-              <div>
+              <div class="formFields">
                 <input class="fontFamily" type="email" name="email" placeholder="Email *" id="email">
               </div>
     
-              <div>
+              <div class="formFields">
                 <input class="fontFamily" type="number"  name="phone" placeholder="Teléfono de contacto *" id="phone">
               </div>
     
-              <div>
+              <div class="formFields">
                 <textarea class="fontFamily" name="message" rows="6" id="message" placeholder="Mensaje *"></textarea>
               </div>
               
-              <div class="contactButtons">  
+              <div class="contactButtons">
                 <button class="submitButton" id="formSubmit" name="formSubmit" type="submit">
                 <span>Enviar</span>
                 </button>

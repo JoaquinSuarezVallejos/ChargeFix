@@ -6,21 +6,19 @@
   <head>
     <meta charset="UTF-8" />
     <title>ChargeFix</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.png"> <!-- Favicon -->
-    <link rel="stylesheet" href="css/style.css" />  <!-- Link a hoja de estilos CSS -->
-
-    <!-- Link a Fontawesome CDN (fuente de íconos)-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" /> <!-- Fontawesome CDN Link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
-    <!-- Flecha Scroll Up (Volver a Inicio) -->
+    <!-- Scroll Up Arrow Button -->
     <div class="scroll-up-button">
       <a><i class="fas fa-arrow-up"></i></a>
     </div>
 
-    <!-- Menú de Navegación (NavBar) -->
+    <!-- Navbar -->
     <!----------------------------------------------------------------------------------------------------------->
     <nav>
       <div class="navbar" id="navbar">
@@ -39,7 +37,7 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Inicio -->
+    <!-- Home -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="home" id="home">
       <div class="home-content">
@@ -61,7 +59,7 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Nosotros -->
+    <!-- About Us -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="about" id="about">
       <div class="content">
@@ -92,7 +90,7 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Servicio -->
+    <!-- Services -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="services" id="services">
       <div class="content">
@@ -148,7 +146,7 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Tecnologías -->
+    <!-- Technologies -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="technologies" id="technologies">
       <div class="content">
@@ -191,7 +189,7 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Contacto -->
+    <!-- Contact -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="contact" id="contact">
       <div class="content">
@@ -209,7 +207,7 @@
           </div>
 
         <span id="formInfo">
-          <?php echo $alert;?> <!-- Feedback del formulario -->
+          <?php echo $alert;?> <!-- Form feedback -->
         </span>
 
           <img id="formAdvIcon" hidden="true" width="50" height="45" img src="images/adv.png" alt="">
@@ -259,7 +257,7 @@
       <div class="textFooter"> <span> © 2024 ChargeFix </span> | Todos los derechos reservados </div>
     </footer>
 
-    <script src="js/script.js"></script> <!-- Link a script de JS -->
+    <script src="js/script.js"></script>
 
   </body>
 </html>

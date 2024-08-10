@@ -1,4 +1,4 @@
-// Flecha Scroll Up (Volver a Inicio)
+// Scroll Up Arrow Button
 let scrollBtn = document.querySelector(".scroll-up-button a");
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 100) {
@@ -11,18 +11,18 @@ scrollBtn.onclick = function () {
   window.scrollTo(0, 0);
 };
 
-// Botón "Contáctenos" - Inicio
+// "Contact Us" Button - Home Section
 let contactBtn = document.querySelector(".contact-us-btn");
 contactBtn.onclick = function () {
   window.scrollTo(0, document.documentElement.scrollHeight);
 };
 
-//Código para borrar el historial del formulario cuando la página se recarga
+// Delete form history when page is reloaded
 if (window.history.replaceState) {
   window.history.replaceState(null, null, window.location.href);
 }
 
-/*----------------- Validación del Formulario de Contacto ------------------------- */
+/*----------------- Contact Form Validation -------------------------*/
 
 const formName = document.getElementById("name");
 const formPhone = document.getElementById("phone");

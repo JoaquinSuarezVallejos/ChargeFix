@@ -164,7 +164,7 @@ nav .navbar .menu li a:hover {
   background: #ed9121;
   color: #fff;
   cursor: pointer;
-  border: 2px solid transparent;
+  border: 2px solid transparent;  
   transition: all 0.4s ease;
   font-family: "Poppins", sans-serif;
   margin-left: 2px;
@@ -177,7 +177,8 @@ nav .navbar .menu li a:hover {
   border-color: #ed9121;
   background-color: #1a1a1a;
   color: #ed9121;
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
+  transform: scale(1.05) rotate(1deg);
   margin-left: 4px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -580,7 +581,7 @@ section .content {
 }
 .contactButtons .submitButton {
   width: 10%;
-  height: 1.7em;
+  height: 1.8em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -750,6 +751,11 @@ footer .textFooter span {
   box-shadow: 3px 3px 2px #191919;
   display: none;
   transition: all 0.4s ease;
+}
+.scroll-up-button a:hover {
+  background: #fff;
+  color: #ed9121;
+  transform: scale(1.1);
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 

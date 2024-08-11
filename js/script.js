@@ -1,7 +1,7 @@
 // Scroll Up Arrow Button
 let scrollBtn = document.querySelector(".scroll-up-button a");
 window.onscroll = function () {
-  if (document.documentElement.scrollTop > 100) {
+  if (document.documentElement.scrollTop > 150) {
     scrollBtn.style.display = "block";
   } else {
     scrollBtn.style.display = "none";

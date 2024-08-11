@@ -14,9 +14,7 @@
 
   <body>
     <!-- Scroll Up Arrow Button -->
-    <div class="scroll-up-button">
-      <a><i class="fas fa-arrow-up"></i></a>
-    </div>
+    <div class="scroll-up-button"> <a><i class="fas fa-arrow-up"></i></a> </div>
 
     <!-- Navbar -->
     <!----------------------------------------------------------------------------------------------------------->

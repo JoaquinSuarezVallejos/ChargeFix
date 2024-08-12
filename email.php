@@ -82,18 +82,18 @@ if(isset($_POST['formSubmit'])){
         $mail->send();
         //debug_to_console("PhP Mailer -> Success!");
         //$alert= "<div class='formSuccess'><span><p class='formSuccessText'>¡Mensaje enviado! Muchas gracias, en breve nos pondremos en contacto.</p></span></div>";
-        $alert= "   <div class = 'formeMessage'>
+        $alert= "   <div class = 'formMessage'>
                         <div> <img width='80' height='80' img src='images/emailSent.png'> </div> 
-                        <div> <p>¡Mensaje enviado!</p> <p>Muchas gracias, en breve nos pondremos en contacto.</p> </div> 
+                        <div> <p>Mensaje enviado, ¡muchas gracias!</p> </div> 
                     </div>
                 ";
     } 
     
     catch (Exception $e) {
         //debug_to_console("PhP Mailer -> Error!");
-        $alert= "   <div class = 'formeMessage'> 
+        $alert= "   <div class = 'formMessage'> 
                         <div> <img width='80' height='50' img src='images/emailError.png'> </div> 
-                        <div> <p>¡Hubo un error al enviar el mensaje!</p> <p>Por favor, reintente más tarde.</p> </div> 
+                        <div> <p>Ocurrió un error al enviar el mensaje...</p> <p>Por favor, reintente más tarde.</p> </div> 
                     </div>
                 ";
     }

@@ -33,15 +33,20 @@ const formError = document.getElementById ('formError');
 const formAdvIcon = document.getElementById ('formAdvIcon');
 const formInfo = document.getElementById ('formInfo');
 
+formName.addEventListener('input', (e) => {
+  // Remove any characters that are not letters in the 'name' field
+  e.target.value = e.target.value.replace(/[^a-zA-Z\s]/g, ''); 
+});
+
 form.addEventListener('submit', (e) =>{
   let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   let errorMessage = '';
 
-  if (formName.value === '' || formName.value == null){ errorMessage ='Por favor, ingrese su nombre.'; }
-  else if (formName.value.length < 3 || (/\d/.test(formName.value))){ errorMessage = 'Por favor, verifique su nombre.'; }
-  else if(!formEmail.value.match(mailformat)){ errorMessage ='Por favor, verifique la dirección de correo.'; }
-  else if (formPhone.value.length < 10) { errorMessage = 'Por favor, verifique el número de teléfono e incluya el código de área.'; }
-  else if (formMessage.value.length < 10){ errorMessage = 'Por favor, ingrese un mensaje breve.'; }
+  if (formName.value === '' || formName.value == null) { errorMessage ='Por favor, ingrese su nombre.'; }
+  else if (formName.value.length < 2) { errorMessage = 'Por favor, verifique su nombre.'; }
+  else if (!formEmail.value.match(mailformat)) { errorMessage ='Por favor, verifique su dirección de correo.'; }
+  else if (formPhone.value.length < 10) { errorMessage = 'Por favor, verifique su número de teléfono e incluya el código de área.'; }
+  else if (formMessage.value === '') { errorMessage = 'Por favor, ingrese su mensaje.'; }
   
   if (errorMessage.length > 0){ 
     e.preventDefault(); 

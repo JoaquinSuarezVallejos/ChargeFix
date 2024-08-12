@@ -655,6 +655,9 @@ section .content {
 .contact .emailContactoText a {
   font-weight: 600;
 }
+.contact #formAdvIcon{
+  margin-top: 25px;
+}
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
@@ -681,8 +684,8 @@ section .content {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.formeMessage {
-  padding: 20px;
+.formMessage {
+  margin-top: 22px;
 }
 .formSuccess {
   border: 1px solid #ccc;

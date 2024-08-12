@@ -752,8 +752,15 @@ footer .textFooter span {
   font-size: 18px;
   border-radius: 6px;
   box-shadow: 3px 3px 2px #191919;
-  display: none;
   transition: all 0.4s ease;
+
+  opacity: 0;
+  pointer-events: none;
+
+  &.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 .scroll-up-button a:hover {
   background: #fff;

@@ -44,8 +44,7 @@ form.addEventListener('submit', (e) =>{
   let mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   let errorMessage = '';
 
-  if (formName.value === '' || formName.value == null) { errorMessage ='Por favor, ingrese su nombre.'; }
-  else if (formName.value.length < 2) { errorMessage = 'Por favor, verifique su nombre.'; }
+  if (formName.value === '' || formName.value.length < 2) { errorMessage = 'Por favor, verifique su nombre.'; }
   else if (!formEmail.value.match(mailformat)) { errorMessage ='Por favor, verifique su dirección de correo.'; }
   else if (formPhone.value.length < 10) { errorMessage = 'Por favor, verifique su número de teléfono e incluya el código de área.'; }
   else if (formMessage.value === '') { errorMessage = 'Por favor, ingrese su mensaje.'; }

@@ -1,23 +1,22 @@
 <!DOCTYPE html>
+
+<?php include 'email.php' ?>
+
 <html lang="es" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <title>ChargeFix</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.png"> <!-- Favicon -->
-    <link rel="stylesheet" href="css/style.css" />  <!-- Link a hoja de estilos CSS -->
-
-    <!-- Link a Fontawesome CDN (fuente de íconos)-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" /> <!-- Fontawesome CDN Link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
-    <!-- Flecha Scroll Up (Volver a Inicio) -->
-    <div class="scroll-up-button">
-      <a><i class="fas fa-arrow-up"></i></a>
-    </div>
+    <!-- Scroll Up Arrow Button -->
+    <div class="scroll-up-button"> <a><i class="fas fa-arrow-up"></i></a> </div>
 
-    <!-- Menú de Navegación (NavBar) -->
+    <!-- Navbar -->
     <!----------------------------------------------------------------------------------------------------------->
     <nav>
       <div class="navbar" id="navbar">
@@ -29,14 +28,14 @@
           <li><a href="#contact" class="navbarContact-btn">Contacto</a></li>
         </ul>
         <div class="navbar-contactButtons">
-          <a class="far fa-envelope whatsappBtn-navbar" href="mailto:contacto@chargefix.com.ar"></a>
+          <a class="far fa-envelope whatsappBtn-navbar" href="#contact"></a>
           <a class="fab fa-whatsapp emailBtn-navbar" href="https://wa.me/5491126438752" target="_blank"></a>
         </div>
     </nav>
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Inicio -->
+    <!-- Home -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="home" id="home">
       <div class="home-content">
@@ -58,7 +57,7 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Nosotros -->
+    <!-- About Us -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="about" id="about">
       <div class="content">
@@ -89,7 +88,7 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Servicio -->
+    <!-- Services -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="services" id="services">
       <div class="content">
@@ -145,11 +144,11 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Tecnologías -->
+    <!-- Technologies -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="technologies" id="technologies">
       <div class="content">
-        <div class="titleTecnologias"><span>Tecnologías que manejamos</span></div>
+        <div class="titleTecnologias"><span>Tecnologías</span></div>
         <div class="boxes">
           <div class="box">
             <div class="icon">
@@ -188,21 +187,15 @@
     <!----------------------------------------------------------------------------------------------------------->
 
 
-    <!-- Sección: Contacto -->
+    <!-- Contact -->
     <!----------------------------------------------------------------------------------------------------------->
     <section class="contact" id="contact">
       <div class="content">
         <div class="titleContacto"><span>Contacto</span></div>
         <div class="text">
           <div class="topicContacto">¿En qué podemos ayudar?</div>
-          <div class="textContacto">Envíenos un mensaje, <br> responderemos a la brevedad.</div>
+          <div class="textContacto">Envíenos un mensaje por WhatsApp <br> o por Email, responderemos a la brevedad. </div>
           <div class="contactButtons">  
-            <a href="mailto:contacto@chargefix.com.ar">
-              <button class="btnEmail">
-                <div class="contactIcons"> <i class="far fa-envelope"></i> </div>
-                <span>Email</span>
-              </button>
-            </a> 
             <a href="https://wa.me/5491126438752" target="_blank">
               <button class="btnWhatsApp">
                 <div class="contactIcons"> <i class="fab fa-whatsapp"></i> </div>
@@ -210,6 +203,46 @@
               </button>
             </a>
           </div>
+
+        <span id="formInfo">
+          <?php echo $alert;?> <!-- Form feedback -->
+        </span>
+
+          <img id="formAdvIcon" hidden="true" width="50" height="45" img src="images/adv.png" alt="">
+          </img> <p class="formErrorStyle" id="formError"></P>
+
+          <br>
+
+          <h3 class="contact-form-title-text">Formulario de Contacto (Email):</h3>
+
+          <form id="contactForm" method="post">
+            <div>
+              <div class="formFields">
+                <input class="fontFamily" type="text" name="name" placeholder="Nombre *" id="name">
+              </div>
+    
+              <div class="formFields">
+                <input class="fontFamily" type="email" name="email" placeholder="Email *" id="email">
+              </div>
+    
+              <div class="formFields">
+                <input class="fontFamily" type="number"  name="phone" placeholder="Teléfono de contacto *" id="phone">
+              </div>
+    
+              <div class="formFields">
+                <textarea class="fontFamily" name="message" rows="6" id="message" placeholder="Mensaje *"></textarea>
+              </div>
+              
+              <div class="contactButtons">
+                <button class="submitButton" id="formSubmit" name="formSubmit" type="submit">
+                <span>Enviar</span>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <br>
+
           <div class="text-ubicacion">📍 San Isidro, Provincia de Buenos Aires, Argentina.</div>
           <div class="emailContactoText">contacto@chargefix.com.ar</div>
         </div>
@@ -222,7 +255,7 @@
       <div class="textFooter"> <span> © 2024 ChargeFix </span> | Todos los derechos reservados </div>
     </footer>
 
-    <script src="js/script.js"></script> <!-- Link a script de JS -->
+    <script src="js/script.js"></script>
 
   </body>
 </html>

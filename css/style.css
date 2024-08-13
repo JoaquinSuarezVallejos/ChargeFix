@@ -85,7 +85,6 @@ nav .navbar .menu li a:hover {
 }
 .navbar .emailBtn-navbar {
   color: #fff;
-  margin-left: 10px;
   transition: all 0.4s ease;
 }
 .navbar .emailBtn-navbar:hover {
@@ -95,6 +94,7 @@ nav .navbar .menu li a:hover {
 .navbar .whatsappBtn-navbar {
   color: #fff;
   transition: all 0.4s ease;
+  margin-left: 10px;
 }
 .navbar .whatsappBtn-navbar:hover {
   color: #000;

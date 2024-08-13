@@ -28,8 +28,8 @@
           <li><a href="#contact" class="navbarContact-btn">Contacto</a></li>
         </ul>
         <div class="navbar-contactButtons">
-          <a class="far fa-envelope whatsappBtn-navbar" href="#contact"></a>
-          <a class="fab fa-whatsapp emailBtn-navbar" href="https://wa.me/5491126438752" target="_blank"></a>
+          <a class="far fa-envelope emailBtn-navbar" href="#contact"></a>
+          <a class="fab fa-whatsapp whatsappBtn-navbar" href="https://wa.me/5491126438752" target="_blank"></a>
         </div>
     </nav>
     <!----------------------------------------------------------------------------------------------------------->

@@ -1,3 +1,5 @@
+<!-- TODO: Make sure the web doesn't reload when the user sends the contact form -->
+
 <!DOCTYPE html>
 
 <?php include 'email.php' ?>

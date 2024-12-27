@@ -35,7 +35,7 @@
 nav {
   /* position: fixed; */
   width: 100%;
-  padding: 14px 0;
+  padding: 16px 0;
   z-index: 998;
   transition: all 0.3s ease;
   background: #ed9121;
@@ -67,7 +67,7 @@ nav .navbar .menu {
 }
 nav .navbar .menu li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 nav .navbar .menu li a {
   color: #fff;
@@ -177,8 +177,7 @@ nav .navbar .menu li a:hover {
   border-color: #ed9121;
   background-color: #1a1a1a;
   color: #ed9121;
-  /* transform: scale(1.02); */
-  transform: scale(1.05) rotate(1deg);
+  transform: scale(1.025); /* Slightly enlarged on hover */
   margin-left: 4px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -719,11 +718,12 @@ input[type="submit"]:hover {
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
+
 /* Footer */
 /* ------------------------------------------------------------------------------------------------------------- */
 footer {
   background: #ed9121;
-  padding: 15px 0;
+  padding: 22px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
@@ -738,6 +738,7 @@ footer .textFooter span {
   color: #fff;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Scroll Up Arrow Button */
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -768,6 +769,7 @@ footer .textFooter span {
   transform: scale(1.1);
 }
 /* ------------------------------------------------------------------------------------------------------------- */
+
 
 /* Responsive Media Queries */
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -1176,6 +1178,11 @@ footer .textFooter span {
     font-size: 36px;
   }
 }
+@media (max-width: 990px){
+  nav .navbar .menu {
+    display: none;
+  }
+}
 @media (max-width: 980px) {
   .home .text-one {
     font-size: 80px;
@@ -1200,11 +1207,6 @@ footer .textFooter span {
 @media (max-width: 860px) {
   nav .navbar .menu {
     font-size: 18px;
-  }
-}
-@media (max-width: 800px) {
-  nav .navbar .menu {
-    display: none;
   }
 }
 @media (max-width: 750px) {

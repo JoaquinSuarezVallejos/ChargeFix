@@ -1,5 +1,3 @@
-<!-- TODO: Make sure the web doesn't reload when the user sends the contact form -->
-
 <!DOCTYPE html>
 
 <?php include 'email.php' ?>
@@ -22,7 +20,7 @@
     <!----------------------------------------------------------------------------------------------------------->
     <nav>
       <div class="navbar" id="navbar">
-        <div class="logo"><a href="#">ChargeFix</a></div>
+        <div class="logo"><a>ChargeFix</a></div>
         <ul class="menu">
           <li><a href="#about" class="navbarAbout-btn">Nosotros</a></li>
           <li><a href="#services" class="navbarService-btn">Servicio</a></li>
@@ -31,7 +29,7 @@
         </ul>
         <div class="navbar-contactButtons">
           <a class="far fa-envelope emailBtn-navbar" href="#contact"></a>
-          <a class="fab fa-whatsapp whatsappBtn-navbar" href="https://wa.me/5491126438752" target="_blank"></a>
+          <a class="fab fa-whatsapp whatsappBtn-navbar" href="https://wa.me/5491173690835" target="_blank"></a>
         </div>
     </nav>
     <!----------------------------------------------------------------------------------------------------------->
@@ -138,7 +136,7 @@
               <i class="fas fa-shield-alt"></i>
             </div>
             <div class="topicBoxes1">6. Garantía</div>
-            <p class="textBoxes1">Nuestras restauraciones cuentan con garantía de 6 meses de duración.</p>
+            <p class="textBoxes1">Nuestras restauraciones cuentan con garantía de seis meses.</p>
           </div>
         </div>
       </div>
@@ -198,7 +196,7 @@
           <div class="topicContacto">¿En qué podemos ayudar?</div>
           <div class="textContacto">Envíenos un mensaje por WhatsApp <br> o por Email, responderemos a la brevedad. </div>
           <div class="contactButtons">  
-            <a href="https://wa.me/5491126438752" target="_blank">
+            <a href="https://wa.me/5491173690835" target="_blank">
               <button class="btnWhatsApp">
                 <div class="contactIcons"> <i class="fab fa-whatsapp"></i> </div>
                 <span>WhatsApp</span>

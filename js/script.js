@@ -36,8 +36,13 @@ const formAdvIcon = document.getElementById ('formAdvIcon');
 const formInfo = document.getElementById ('formInfo');
 
 formName.addEventListener('input', (e) => {
-  // Remove any characters that are not letters in the 'name' field
-  e.target.value = e.target.value.replace(/[^a-zA-Z\s]/g, ''); 
+  // Allow letters, letters with accents and spaces
+  e.target.value = e.target.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/g, '');
+});
+
+formPhone.addEventListener('input', (e) => {
+  // Allow numbers, spaces, parentheses, hyphens and plus sign
+  e.target.value = e.target.value.replace(/[^0-9\s\(\)\-\+]/g, '');
 });
 
 form.addEventListener('submit', (e) =>{

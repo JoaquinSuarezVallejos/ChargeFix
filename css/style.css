@@ -704,6 +704,7 @@ textarea {
   box-sizing: border-box;
   background-color: #333333;
   color: #ccc;
+  resize: none; /* Disable resizing */
 }
 input[type="submit"] {
   background-color: #4caf50;

@@ -226,7 +226,7 @@
               </div>
     
               <div class="formFields">
-                <input class="fontFamily" type="number"  name="phone" placeholder="Teléfono de contacto *" id="phone">
+                <input class="fontFamily" type="text"  name="phone" placeholder="Teléfono de contacto *" id="phone">
               </div>
     
               <div class="formFields">
